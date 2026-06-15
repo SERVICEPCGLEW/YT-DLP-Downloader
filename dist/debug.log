@@ -1,0 +1,1117 @@
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.facebook.com/reel/2121286145480708 | Path=G:\Mi unidad\🌐 Proyectos Web y Backups\yt-dlp-gui\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y Backups\\yt-dlp-gui\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/2121286145480708']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=22725). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='29K views · 289 reactions | Windows con NUEVA actualización Se hace MÁS RÁPIDO Y FLUIDO #protomdz #proto | Proto', duración=78.274, canal='Proto', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/717612537_769690236191152_7898543425213825818_n.jpg?stp=dst-jpg_tt6&cstp=mx1152x2048&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=be8305&_nc_ohc=KsS7QXEZsnYQ7kNvwFd9Os5&_nc_oc=Adp7ic9lIlIIQiPfqcFM-GgrLtU-K98Fw1ALRL18y8BX_MKqsWVj3biCgannkXumKd08cZlsCcZOKrjuPD6wxv5v&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=LK8ES7eDPwktN0zkZKk7jg&_nc_ss=7d289&oh=00_Af-aQGuaZas0CKKR9mY3PbPWpMiuykWNrxafLCen_0n14w&oe=6A2BF4EF'
+Excepción en _fetch_metadata_thread:
+Traceback (most recent call last):
+  File "app.py", line 363, in _fetch_metadata_thread
+ValueError: Unknown format code 'd' for object of type 'float'
+
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.facebook.com/reel/1308055691493680 | Path=G:\Mi unidad\🌐 Proyectos Web y Backups\yt-dlp-gui\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y Backups\\yt-dlp-gui\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1308055691493680']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=17114). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='1.6K views · 29 reactions | En varias ocasiones me han dicho que les gustaría lograr el mismo acabado exterior con sus equipos y acá les traigo que productos uso y como. #mantenimiento #recomendaciones #serviciotecnico | Big Bang Informática y Electrónicos', duración=280.597, canal='Big Bang Informática y Electrónicos', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/716390438_2124562884774650_2418007240127341832_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=50ce42&_nc_ohc=KlJ7Cey80c0Q7kNvwHffobI&_nc_oc=AdrzDjpoKVZJZnbAmb90vGe3xen7uEKee03ei1ye_ZwKsHQrf9wSMBIQ9vtF2_6dD908K6wuq6_W1eOc_4HHNzoV&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=1TA3yTcDNs1C6Xiw3kJpdA&_nc_ss=7d289&oh=00_Af9mSNiE3yVZRWHDaaUF5KVE4m0erYS34md5k8RPZojEVw&oe=6A2BED96'
+Excepción en _fetch_metadata_thread:
+Traceback (most recent call last):
+  File "app.py", line 363, in _fetch_metadata_thread
+ValueError: Unknown format code 'd' for object of type 'float'
+
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.facebook.com/reel/3157421924648004 | Path=G:\Mi unidad\🌐 Proyectos Web y Backups\yt-dlp-gui\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y Backups\\yt-dlp-gui\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/3157421924648004']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=22782). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='34K views · 2.7K reactions | Revelum Es on Reels', duración=1413, canal='Revelum Es', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/709708073_1344767377530022_7032609427062711964_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=be8305&_nc_ohc=FROOrml8WAAQ7kNvwF1VhKC&_nc_oc=AdrMffN-7xj5vIZnPfo2rJ0g34Vuap0PjYCqdtkivJI8eeZMm1HU_HcKC5tk-xTmtw51FZTN57PFKXcwFFDeNqFA&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=qsJplXZ2080j8gt7Wm05KQ&_nc_ss=7d289&oh=00_Af9VBQgkdXICXSLukNHvAz0OG5aCOP8CGFkGL4azr_fCag&oe=6A2BD304'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/709708073_1344767377530022_7032609427062711964_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=be8305&_nc_ohc=FROOrml8WAAQ7kNvwF1VhKC&_nc_oc=AdrMffN-7xj5vIZnPfo2rJ0g34Vuap0PjYCqdtkivJI8eeZMm1HU_HcKC5tk-xTmtw51FZTN57PFKXcwFFDeNqFA&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=qsJplXZ2080j8gt7Wm05KQ&_nc_ss=7d289&oh=00_Af9VBQgkdXICXSLukNHvAz0OG5aCOP8CGFkGL4azr_fCag&oe=6A2BD304
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.facebook.com/reel/1006193942275611 | Path=G:\Mi unidad\🌐 Proyectos Web y Backups\yt-dlp-gui\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y Backups\\yt-dlp-gui\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1006193942275611']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=29605). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='8.6K views · 897 reactions | ⚖️ LA BALANZA DEL GUERRERO: El Matrimonio Alquímico ​Guerreros, deténganse un momento aquí. Miren la balanza de su caminar espiritual. ​Por un lado, tenemos a la Hostilidad Congraciada. Ahí es donde vemos cara a cara al antagónico del Espíritu, en un acto de pura conciencia. Pero recuerden esto: aunque ese antagónico sea el enemigo del Espíritu, es, también, donde la gracia y tu voluntad se unen para formar un matrimonio alquímico indestructible. 💥 ​Y en el otro lado de la balanza... nos sostiene la Alegría de Espíritu en el siempre presente. El gozo de saberse despiertos, aquí y ahora. ​✨ Un recordatorio vital: No hace falta "hacerlo perfecto". Quítate ese peso de encima. Lo que realmente importa es tu autenticidad en la unidad del Ser. ​La gracia conoce perfectamente tus batallas internas. Sabe lo que te ha costado sostener la espada. Lo están haciendo genial, sigan firmes, sigan integrando cada sombra y cada luz. ​¡El camino es tuyo y la victoria ya habita en tu templanza! ¡A seguir batallando con el corazón encendido, guerreros! 🦅🔥 ​#EspírituGuerrero #AlquimiaInterior #ConcienciaPura #Presente #UnidadDelSer #GuerrerosDeLuz #EvoluciónEspiritual | Max Racer Caorssi', duración=288, canal='Max Racer Caorssi', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/717959048_1504940004662888_1649393167157383264_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=50ce42&_nc_ohc=Ex1gByAuEQUQ7kNvwHo-760&_nc_oc=Adpt_njgEGsicvP0hr4elTy_YuxhI-645rFKYnyLTF4d3938syRs_qeEainDPk87Lmv2zkphSkXdnkOtZ3-NF51-&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=5RZiCWR1kaWL8yPfAjejfQ&_nc_ss=7d289&oh=00_Af-3dPkknH3i6NmmUH5GAdNlRJ8rGk9wV8Y5e_N1wbSPqA&oe=6A2BDF11'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/717959048_1504940004662888_1649393167157383264_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=50ce42&_nc_ohc=Ex1gByAuEQUQ7kNvwHo-760&_nc_oc=Adpt_njgEGsicvP0hr4elTy_YuxhI-645rFKYnyLTF4d3938syRs_qeEainDPk87Lmv2zkphSkXdnkOtZ3-NF51-&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=5RZiCWR1kaWL8yPfAjejfQ&_nc_ss=7d289&oh=00_Af-3dPkknH3i6NmmUH5GAdNlRJ8rGk9wV8Y5e_N1wbSPqA&oe=6A2BDF11
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.facebook.com/reel/966386242885512 | Path=G:\Mi unidad\🌐 Proyectos Web y Backups\yt-dlp-gui\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y Backups\\yt-dlp-gui\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/966386242885512']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25708). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='42K views · 394 reactions | Pasta conductora así funciona #Repara #Reparación #curso #Reparación #cursodereparacion #cautin #Electrónica #PCB #IPC | Zambrano fix', duración=12, canal='Zambrano fix', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/716690253_2066247597602159_5369326580258871949_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=rf0WcnAYUTQQ7kNvwHTErNZ&_nc_oc=AdpxVjFu_QwjwV3uM3VzkhUTTEzqGO-cI_P8uY88flh1jL-w7wfjM-7dL2QB01TvjfUPVNd4rJkVviIZh4rsCTtw&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=2XoxC_1ShRK1woj92ac6uw&_nc_ss=7d289&oh=00_Af8v4FjtP4S4kk9pYCf5VUK252JO1vg679muC5ziKPF_kA&oe=6A2BF806'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/716690253_2066247597602159_5369326580258871949_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=rf0WcnAYUTQQ7kNvwHTErNZ&_nc_oc=AdpxVjFu_QwjwV3uM3VzkhUTTEzqGO-cI_P8uY88flh1jL-w7wfjM-7dL2QB01TvjfUPVNd4rJkVviIZh4rsCTtw&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=2XoxC_1ShRK1woj92ac6uw&_nc_ss=7d289&oh=00_Af8v4FjtP4S4kk9pYCf5VUK252JO1vg679muC5ziKPF_kA&oe=6A2BF806
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+
+--- APLICACIÓN INICIADA ---
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.youtube.com/watch?v=RP1bIWYqdV8 | Path=G:\Mi unidad\🌐 Proyectos Web y Backups\yt-dlp-gui\yt-dlp.exe
+Error: yt-dlp.exe no existe en G:\Mi unidad\🌐 Proyectos Web y Backups\yt-dlp-gui\yt-dlp.exe
+start_fetch_metadata: URL=https://www.youtube.com/watch?v=RP1bIWYqdV8 | Path=G:\Mi unidad\🌐 Proyectos Web y Backups\yt-dlp-gui\yt-dlp.exe
+Error: yt-dlp.exe no existe en G:\Mi unidad\🌐 Proyectos Web y Backups\yt-dlp-gui\yt-dlp.exe
+start_fetch_metadata: URL=https://www.youtube.com/watch?v=RP1bIWYqdV8 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\yt-dlp-gui\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\yt-dlp-gui\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.youtube.com/watch?v=RP1bIWYqdV8']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=82764). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='How to Install and Configure a TP-Link USB Wi Fi Network Adapter', duración=273, canal='TP-Link Systems Inc.', miniatura='https://i.ytimg.com/vi/RP1bIWYqdV8/maxresdefault.jpg'
+Descargando miniatura desde: https://i.ytimg.com/vi/RP1bIWYqdV8/maxresdefault.jpg
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.facebook.com/61585875423036/videos/942403175025601/ | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\yt-dlp-gui\yt-dlp.exe
+Error: yt-dlp.exe no existe en G:\Mi unidad\🌐 Proyectos Web y de Software\yt-dlp-gui\yt-dlp.exe
+start_fetch_metadata: URL=https://www.facebook.com/61585875423036/videos/942403175025601/ | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\yt-dlp-gui\yt-dlp.exe
+Error: yt-dlp.exe no existe en G:\Mi unidad\🌐 Proyectos Web y de Software\yt-dlp-gui\yt-dlp.exe
+
+--- APLICACIÓN INICIADA ---
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://youtu.be/KNECIcKEnz4?t=14 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\yt-dlp-gui\yt-dlp.exe
+Error: yt-dlp.exe no existe en G:\Mi unidad\🌐 Proyectos Web y de Software\yt-dlp-gui\yt-dlp.exe
+start_fetch_metadata: URL=https://youtu.be/KNECIcKEnz4?t=14 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\yt-dlp-gui video downloader amd64\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\yt-dlp-gui video downloader amd64\\yt-dlp.exe', '-j', '--no-playlist', 'https://youtu.be/KNECIcKEnz4?t=14']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=534347). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Moe " Ahora robo " - Los simpsons', duración=21, canal='Esequiel Spinelli', miniatura='https://i.ytimg.com/vi/KNECIcKEnz4/maxresdefault.jpg'
+Descargando miniatura desde: https://i.ytimg.com/vi/KNECIcKEnz4/maxresdefault.jpg
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+
+--- APLICACIÓN INICIADA ---
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.facebook.com/reel/1533673021730235 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\yt-dlp-gui video downloader amd64\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\yt-dlp-gui video downloader amd64\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1533673021730235']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25902). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='40K views · 892 reactions | Como analizar un corto en una PC!!! 🤓🧐😎#pc #pcgamingsetup #windows #GPU #Videojuegos #pcgaming #laptop #discoduro #CPU #pcgamer #gamer #tarjetadevideo #tarjetamadre #procesador #Motherboard #videojuegos #computadora #memoriaRAM | Tecnotizados', duración=196, canal='Tecnotizados', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/723256744_1751226649624718_260995060780192276_n.jpg?stp=dst-jpg_tt6&cstp=mx576x1024&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=atg9fRMHJ-MQ7kNvwFTEKo0&_nc_oc=AdpsgZnKtarCJaUmX32VHhlp6HOO7DvLbFrAcsoCbakX1mpUff3ZthOVJBKjWFCYQV9m8Z8zi0i2YNEEfLEK0iAc&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=FpKZqP3LW1cXK44rNLbLpw&_nc_ss=7d289&oh=00_Af8c-x5YhIZGy7qDxtS2hDKD45xlym-JOSwA5-hR6i9UZw&oe=6A339520'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/723256744_1751226649624718_260995060780192276_n.jpg?stp=dst-jpg_tt6&cstp=mx576x1024&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=atg9fRMHJ-MQ7kNvwFTEKo0&_nc_oc=AdpsgZnKtarCJaUmX32VHhlp6HOO7DvLbFrAcsoCbakX1mpUff3ZthOVJBKjWFCYQV9m8Z8zi0i2YNEEfLEK0iAc&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=FpKZqP3LW1cXK44rNLbLpw&_nc_ss=7d289&oh=00_Af8c-x5YhIZGy7qDxtS2hDKD45xlym-JOSwA5-hR6i9UZw&oe=6A339520
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1533673021730235 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\yt-dlp-gui video downloader amd64\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\yt-dlp-gui video downloader amd64\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1533673021730235']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25902). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='40K views · 893 reactions | Como analizar un corto en una PC!!! 🤓🧐😎#pc #pcgamingsetup #windows #GPU #Videojuegos #pcgaming #laptop #discoduro #CPU #pcgamer #gamer #tarjetadevideo #tarjetamadre #procesador #Motherboard #videojuegos #computadora #memoriaRAM | Tecnotizados', duración=196, canal='Tecnotizados', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/723256744_1751226649624718_260995060780192276_n.jpg?stp=dst-jpg_tt6&cstp=mx576x1024&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=atg9fRMHJ-MQ7kNvwFTEKo0&_nc_oc=AdpsgZnKtarCJaUmX32VHhlp6HOO7DvLbFrAcsoCbakX1mpUff3ZthOVJBKjWFCYQV9m8Z8zi0i2YNEEfLEK0iAc&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=s84cyc1beIBgV0rmsqZS-g&_nc_ss=7d289&oh=00_Af8GxQJR_3tzEdHGOEsPiObVPIqBmRNrD8wdvvymKtwcHg&oe=6A33CD60'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/723256744_1751226649624718_260995060780192276_n.jpg?stp=dst-jpg_tt6&cstp=mx576x1024&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=atg9fRMHJ-MQ7kNvwFTEKo0&_nc_oc=AdpsgZnKtarCJaUmX32VHhlp6HOO7DvLbFrAcsoCbakX1mpUff3ZthOVJBKjWFCYQV9m8Z8zi0i2YNEEfLEK0iAc&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=s84cyc1beIBgV0rmsqZS-g&_nc_ss=7d289&oh=00_Af8GxQJR_3tzEdHGOEsPiObVPIqBmRNrD8wdvvymKtwcHg&oe=6A33CD60
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.facebook.com/reel/1533673021730235 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\yt-dlp-gui video downloader amd64\yt-dlp.exe
+Error: yt-dlp.exe no existe en G:\Mi unidad\🌐 Proyectos Web y de Software\yt-dlp-gui video downloader amd64\yt-dlp.exe
+start_fetch_metadata: URL=https://www.facebook.com/reel/1533673021730235 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1533673021730235']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25902). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='41K views · 903 reactions | Como analizar un corto en una PC!!! 🤓🧐😎#pc #pcgamingsetup #windows #GPU #Videojuegos #pcgaming #laptop #discoduro #CPU #pcgamer #gamer #tarjetadevideo #tarjetamadre #procesador #Motherboard #videojuegos #computadora #memoriaRAM | Tecnotizados', duración=196, canal='Tecnotizados', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/723256744_1751226649624718_260995060780192276_n.jpg?stp=dst-jpg_tt6&cstp=mx576x1024&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=atg9fRMHJ-MQ7kNvwFTEKo0&_nc_oc=AdpsgZnKtarCJaUmX32VHhlp6HOO7DvLbFrAcsoCbakX1mpUff3ZthOVJBKjWFCYQV9m8Z8zi0i2YNEEfLEK0iAc&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=guDnqwEfi9dOuVgzv-OmZw&_nc_ss=7d289&oh=00_Af-7q6rCYj9XGiEBeE8RZZTd8Ag6ZNzyxxXHgTkL8DuhwA&oe=6A33CD60'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/723256744_1751226649624718_260995060780192276_n.jpg?stp=dst-jpg_tt6&cstp=mx576x1024&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=atg9fRMHJ-MQ7kNvwFTEKo0&_nc_oc=AdpsgZnKtarCJaUmX32VHhlp6HOO7DvLbFrAcsoCbakX1mpUff3ZthOVJBKjWFCYQV9m8Z8zi0i2YNEEfLEK0iAc&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=guDnqwEfi9dOuVgzv-OmZw&_nc_ss=7d289&oh=00_Af-7q6rCYj9XGiEBeE8RZZTd8Ag6ZNzyxxXHgTkL8DuhwA&oe=6A33CD60
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.facebook.com/reel/1533673021730235 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1533673021730235']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25902). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='41K views · 905 reactions | Como analizar un corto en una PC!!! 🤓🧐😎#pc #pcgamingsetup #windows #GPU #Videojuegos #pcgaming #laptop #discoduro #CPU #pcgamer #gamer #tarjetadevideo #tarjetamadre #procesador #Motherboard #videojuegos #computadora #memoriaRAM | Tecnotizados', duración=196, canal='Tecnotizados', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/723256744_1751226649624718_260995060780192276_n.jpg?stp=dst-jpg_tt6&cstp=mx576x1024&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=atg9fRMHJ-MQ7kNvwFTEKo0&_nc_oc=AdpsgZnKtarCJaUmX32VHhlp6HOO7DvLbFrAcsoCbakX1mpUff3ZthOVJBKjWFCYQV9m8Z8zi0i2YNEEfLEK0iAc&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=qPNLSDiJwCoFL0pCuvIblQ&_nc_ss=7d289&oh=00_Af-rHyD3szR8p2NZcdDD5ob8DLuLwBVXvXznDOPCl5Wdww&oe=6A33CD60'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/723256744_1751226649624718_260995060780192276_n.jpg?stp=dst-jpg_tt6&cstp=mx576x1024&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=atg9fRMHJ-MQ7kNvwFTEKo0&_nc_oc=AdpsgZnKtarCJaUmX32VHhlp6HOO7DvLbFrAcsoCbakX1mpUff3ZthOVJBKjWFCYQV9m8Z8zi0i2YNEEfLEK0iAc&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=qPNLSDiJwCoFL0pCuvIblQ&_nc_ss=7d289&oh=00_Af-rHyD3szR8p2NZcdDD5ob8DLuLwBVXvXznDOPCl5Wdww&oe=6A33CD60
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.facebook.com/reel/1533673021730235 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1533673021730235']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25902). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='41K views · 909 reactions | Como analizar un corto en una PC!!! 🤓🧐😎#pc #pcgamingsetup #windows #GPU #Videojuegos #pcgaming #laptop #discoduro #CPU #pcgamer #gamer #tarjetadevideo #tarjetamadre #procesador #Motherboard #videojuegos #computadora #memoriaRAM | Tecnotizados', duración=196, canal='Tecnotizados', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/723256744_1751226649624718_260995060780192276_n.jpg?stp=dst-jpg_tt6&cstp=mx576x1024&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=atg9fRMHJ-MQ7kNvwFTEKo0&_nc_oc=AdpsgZnKtarCJaUmX32VHhlp6HOO7DvLbFrAcsoCbakX1mpUff3ZthOVJBKjWFCYQV9m8Z8zi0i2YNEEfLEK0iAc&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=AS9oORG-iIpNRZCSF5YNAA&_nc_ss=7d289&oh=00_Af__gwWw-W5K7oa6KhtWw86IfGHdZUNn4cfkdLVLLr59SA&oe=6A33CD60'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/723256744_1751226649624718_260995060780192276_n.jpg?stp=dst-jpg_tt6&cstp=mx576x1024&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=atg9fRMHJ-MQ7kNvwFTEKo0&_nc_oc=AdpsgZnKtarCJaUmX32VHhlp6HOO7DvLbFrAcsoCbakX1mpUff3ZthOVJBKjWFCYQV9m8Z8zi0i2YNEEfLEK0iAc&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=AS9oORG-iIpNRZCSF5YNAA&_nc_ss=7d289&oh=00_Af__gwWw-W5K7oa6KhtWw86IfGHdZUNn4cfkdLVLLr59SA&oe=6A33CD60
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1383966410457373 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1383966410457373']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=26733). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='129K views · 2.7K reactions | El ISRS y el dual no reparan el cerebro igual 🧠 Las dos vías distintas: serotonina + hipocampo vs serotonina + norepinefrina + corteza prefrontal. Por qué los duales (venlafaxina, duloxetina) tienen indicaciones específicas en fatiga, apatía y dolor crónico. #antidepresivos #ISRS #venlafaxina #duloxetina #depresion #neurociencia #psiquiatria #saludmental | Marcplanella.com: Depresión Online', duración=101, canal='Marcplanella.com: Depresión Online', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/721368987_1513747680206917_7077366545319199257_n.jpg?stp=dst-jpg_tt6&cstp=mx572x1024&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=be8305&_nc_ohc=irU331y-5ckQ7kNvwHTWt5f&_nc_oc=AdqCbAqV4SaYoW7AwrngqUUU_7INu7oZOljNhlZbeSErNmH9bQw1PoFhbeSXZkBsmulEZW6p6fKclBY9gEn2-1W1&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=f3wYSVz1tnDDyMiycDc_dA&_nc_ss=7d289&oh=00_Af-tKiksdnQDMJSC5kj8gBJVNgeCAP7JO7Fa_uhwIFaCIQ&oe=6A33C86E'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/721368987_1513747680206917_7077366545319199257_n.jpg?stp=dst-jpg_tt6&cstp=mx572x1024&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=be8305&_nc_ohc=irU331y-5ckQ7kNvwHTWt5f&_nc_oc=AdqCbAqV4SaYoW7AwrngqUUU_7INu7oZOljNhlZbeSErNmH9bQw1PoFhbeSXZkBsmulEZW6p6fKclBY9gEn2-1W1&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=f3wYSVz1tnDDyMiycDc_dA&_nc_ss=7d289&oh=00_Af-tKiksdnQDMJSC5kj8gBJVNgeCAP7JO7Fa_uhwIFaCIQ&oe=6A33C86E
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1499223914982166 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1499223914982166']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25992). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='4.8K views · 4.8K reactions | 👉Sigue @llanezco Como hacer un reel en 13 segundos 😮‍💨👌 #marketing #negocio #redes #marketingdigital #contenido | Llanez Co.', duración=13, canal='Llanez Co.', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/708877444_886146714501508_2720896141587253564_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=50ce42&_nc_ohc=25TlgZKHBScQ7kNvwERu2C5&_nc_oc=AdoFfPIwSDXDFIwZ3pONgjQJ13LQbWimhdMWUzB1-rDtZfFLSpOCASd64uO4fpGmhudhMoJR3pjR5kD76WeTRTkU&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=_3qgeBtPWvuJkNUkl892jQ&_nc_ss=7d289&oh=00_Af95cuFqti4GAgCN0NqTPgExOGbVDoakEMWMPrafTrE6BA&oe=6A33CFC2'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/708877444_886146714501508_2720896141587253564_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=50ce42&_nc_ohc=25TlgZKHBScQ7kNvwERu2C5&_nc_oc=AdoFfPIwSDXDFIwZ3pONgjQJ13LQbWimhdMWUzB1-rDtZfFLSpOCASd64uO4fpGmhudhMoJR3pjR5kD76WeTRTkU&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=_3qgeBtPWvuJkNUkl892jQ&_nc_ss=7d289&oh=00_Af95cuFqti4GAgCN0NqTPgExOGbVDoakEMWMPrafTrE6BA&oe=6A33CFC2
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1492754688507226 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1492754688507226']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=18021). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='4.5K views · 34 reactions | El antivirus que está destruyendo el rendimiento de tu PC | Tijuana PC', duración=33, canal='Tijuana PC', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/719613176_1643000506788093_6704512510237622439_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=D47GaBMtjBwQ7kNvwHj4kBQ&_nc_oc=AdqRlxtPay1HGIwzzJZxGIfXll7X121VmsppiFkVeTJcMNHo9aOJ-bRXofhbwRY12lOXrWDMyGcsPeJ6fV4R1EKS&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=SjWyIJF4HqBOB0Bla-ZVpA&_nc_ss=7d289&oh=00_Af8Ti57OMpPNrCj6G5FfwGAu72g7awaYGQDUM297VxXrKg&oe=6A33D0D1'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/719613176_1643000506788093_6704512510237622439_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=D47GaBMtjBwQ7kNvwHj4kBQ&_nc_oc=AdqRlxtPay1HGIwzzJZxGIfXll7X121VmsppiFkVeTJcMNHo9aOJ-bRXofhbwRY12lOXrWDMyGcsPeJ6fV4R1EKS&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=SjWyIJF4HqBOB0Bla-ZVpA&_nc_ss=7d289&oh=00_Af8Ti57OMpPNrCj6G5FfwGAu72g7awaYGQDUM297VxXrKg&oe=6A33D0D1
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1477919030458857 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1477919030458857']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=24888). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='174K views · 5.8K reactions | Palabras automatizadas #automatizacion #manychat | Fotoraptors', duración=144, canal='Fotoraptors', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/710126022_1405820191371574_5929355449901893125_n.jpg?stp=dst-jpg_tt6&cstp=mx1152x2048&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=be8305&_nc_ohc=oBHmZZcqno4Q7kNvwGUwF7-&_nc_oc=AdrxZEM7Q7zDsOGB_i9kxCYDpRIHTp4Iy6FW5VAtasK6zXaJDC38KbTQSnccAsNqojdlQgngaHyoKLsSgQgS0V78&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=IonhINILiLYTirqOkoiGMA&_nc_ss=7d289&oh=00_Af-e9bK38s13ihiZq33TmaRv14dCDeJl1xiq3yBsE4b3Vw&oe=6A33A65A'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/710126022_1405820191371574_5929355449901893125_n.jpg?stp=dst-jpg_tt6&cstp=mx1152x2048&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=be8305&_nc_ohc=oBHmZZcqno4Q7kNvwGUwF7-&_nc_oc=AdrxZEM7Q7zDsOGB_i9kxCYDpRIHTp4Iy6FW5VAtasK6zXaJDC38KbTQSnccAsNqojdlQgngaHyoKLsSgQgS0V78&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=IonhINILiLYTirqOkoiGMA&_nc_ss=7d289&oh=00_Af-e9bK38s13ihiZq33TmaRv14dCDeJl1xiq3yBsE4b3Vw&oe=6A33A65A
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1737223414377386 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1737223414377386']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=18062). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Recrea el conocimiento de tus ídolos fácilmente', duración=163, canal='Topflow AI', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/707136676_1293667972960727_9012255805466105297_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=50ce42&_nc_ohc=2beyl2ZU9fAQ7kNvwHSJuJV&_nc_oc=AdrVjGWk0zX6VyiC2BaOBYctVmzqL2DgT2qcbQnUKykgYANz-RtBtG98xJBoMk6fY52qxEx3UomyRRfcdx6fXbPw&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=U9nF_dDv8mVrQFpWpHih7Q&_nc_ss=7d289&oh=00_Af-qxvO8xyJ0lidQdihTbYGXN3Aq5Nnve_qMLKo9bOZ9DA&oe=6A339EC5'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/707136676_1293667972960727_9012255805466105297_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=50ce42&_nc_ohc=2beyl2ZU9fAQ7kNvwHSJuJV&_nc_oc=AdrVjGWk0zX6VyiC2BaOBYctVmzqL2DgT2qcbQnUKykgYANz-RtBtG98xJBoMk6fY52qxEx3UomyRRfcdx6fXbPw&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=U9nF_dDv8mVrQFpWpHih7Q&_nc_ss=7d289&oh=00_Af-qxvO8xyJ0lidQdihTbYGXN3Aq5Nnve_qMLKo9bOZ9DA&oe=6A339EC5
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1606329820472568 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1606329820472568']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=21450). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='4.2K views · 462 reactions | Comentá "AUTORIDAD"👇 | Juan.lerida', duración=177, canal='Juan.lerida', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/711329684_980764564694201_7605293104648126055_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=50ce42&_nc_ohc=zqM2swhK-vUQ7kNvwG64GJU&_nc_oc=AdouG5us6jVpAaaqkmI3sia5bbbStYjKGjWQ-vdPr-4ne-pywWBKvjLzk6gUJLjbMlhElGDZBbrnL3ybFv03zLnO&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=oXwRdlm3yPnyDdOFyC80HQ&_nc_ss=7d289&oh=00_Af9YW-PN3e8B7aBtMpAKAXK2TB4AvaVkrFUYKVGijsGbOw&oe=6A33C344'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/711329684_980764564694201_7605293104648126055_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=50ce42&_nc_ohc=zqM2swhK-vUQ7kNvwG64GJU&_nc_oc=AdouG5us6jVpAaaqkmI3sia5bbbStYjKGjWQ-vdPr-4ne-pywWBKvjLzk6gUJLjbMlhElGDZBbrnL3ybFv03zLnO&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=oXwRdlm3yPnyDdOFyC80HQ&_nc_ss=7d289&oh=00_Af9YW-PN3e8B7aBtMpAKAXK2TB4AvaVkrFUYKVGijsGbOw&oe=6A33C344
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1005815008817320 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1005815008817320']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=26513). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='1.8K reactions · 205 shares | ¿Quieres aprender esta técnica? Comenta: YO QUIERO CURSO. ¡Pegar una bisagra es sencillo! Pero... ¿sabías que reconstruir sus anclajes con tuercas de inserción y tornillos es la forma profesional para hacerlo duradero? En este video te muestro parte del proceso y el resultado final de la reparación. | Guayacan System - Luis Daniel', duración=51, canal='Guayacan System - Luis Daniel', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/714765375_1441391427744277_104700587706002056_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=be8305&_nc_ohc=-KSbvgVXe8cQ7kNvwHWmU7j&_nc_oc=Adr_Oufrp1H0vRkhKuCwXTEJ8zwu_qHThPawf5SrGIRnnmOR3jD5r0wu6VqxSzy7EFblEl2W2_dm5JFRdL-HU4JT&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=iPtWKVE0-RBE3MinJzAr0w&_nc_ss=7d289&oh=00_Af-PQzpQwnO7Ih522AOFicyRZjDJ_1G-3Lxp9HnGHxWxIA&oe=6A33CE12'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/714765375_1441391427744277_104700587706002056_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=be8305&_nc_ohc=-KSbvgVXe8cQ7kNvwHWmU7j&_nc_oc=Adr_Oufrp1H0vRkhKuCwXTEJ8zwu_qHThPawf5SrGIRnnmOR3jD5r0wu6VqxSzy7EFblEl2W2_dm5JFRdL-HU4JT&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=iPtWKVE0-RBE3MinJzAr0w&_nc_ss=7d289&oh=00_Af-PQzpQwnO7Ih522AOFicyRZjDJ_1G-3Lxp9HnGHxWxIA&oe=6A33CE12
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1650302446240084 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1650302446240084']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=28725). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='66K views · 1.4K reactions | Lo que pasa en tu cerebro cuando dejas la sertralina despacio 💊 Semana a semana. Durante el tratamiento → Los receptores se han adaptado a alta serotonina. → El cerebro ha cambiado su configuración. Semanas 1–2 de bajada → Primera reducción de dosis. → El cerebro nota la caída. → Más ansiedad, insomnio leve, sensaciones raras. → Es la readaptación, no la recaída. Semanas 2–4 → Dosis estable. → Los receptores se readaptan al nuevo nivel. → Los síntomas se calman. Siguiente escalón de bajada → El proceso se repite. → El cerebro ya ha practicado. → Cuanto más gradual, menos se nota. Últimas dosis → Las más delicadas. → Reducir un 25mg cuando tomas 25mg → no es lo mismo que reducirlo cuando tomas 100mg. El tapering le da al cerebro lo que el abandono brusco no da: tiempo para readaptarse en cada escalón. Guía gratuita de antidepresivos en el enlace de la bio. #sertralina #antidepresivos #tapering #discontinuacion #ISRS #psiquiatria #saludmental #depresion | Marcplanella.com: Depresión Online', duración=122, canal='Marcplanella.com: Depresión Online', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/702383679_1690567635701308_8952791318088603390_n.jpg?stp=dst-jpg_tt6&cstp=mx572x1024&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=cKEb_OX2mhsQ7kNvwHh8FU7&_nc_oc=AdqcmiJqOhTmnYdVhaaAhBfMLDar49U4PyBHnWi24vYmXX608EePlr19-Tq-IgC3apoUuZ75uvLF1rwE0J89V47v&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=h2EkqCRirhjd8k2b_J_sPw&_nc_ss=7d289&oh=00_Af-80SkYUBj2CDRJvldMvYbNa5GNqknBG5L9VbdsV2As_w&oe=6A33AF53'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/702383679_1690567635701308_8952791318088603390_n.jpg?stp=dst-jpg_tt6&cstp=mx572x1024&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=cKEb_OX2mhsQ7kNvwHh8FU7&_nc_oc=AdqcmiJqOhTmnYdVhaaAhBfMLDar49U4PyBHnWi24vYmXX608EePlr19-Tq-IgC3apoUuZ75uvLF1rwE0J89V47v&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=h2EkqCRirhjd8k2b_J_sPw&_nc_ss=7d289&oh=00_Af-80SkYUBj2CDRJvldMvYbNa5GNqknBG5L9VbdsV2As_w&oe=6A33AF53
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/3552358691589150 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/3552358691589150']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25451). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='📡 ¿Se puede “ver” usando señales WiFi?', duración=52, canal='El Alquimista de Bits', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/713384297_2332839043907807_7854060934798575348_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=tFYN5bnBM00Q7kNvwHzQbmN&_nc_oc=Adr0dGVA28dXBeMZCu9xEF6R4yWAoSSiAKH2EOSUW0oP1mYx9tQyQqYiQPHMKAuzXYtJfyZeX0ldZYmc-K6t_CKE&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=WSvaOqrxOAUsTOsGxVG0jw&_nc_ss=7d289&oh=00_Af9YEWQES03BhGZgRI_uC4QH0jwY4mCFlxDXg6m_zMdWTw&oe=6A33B91A'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/713384297_2332839043907807_7854060934798575348_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=tFYN5bnBM00Q7kNvwHzQbmN&_nc_oc=Adr0dGVA28dXBeMZCu9xEF6R4yWAoSSiAKH2EOSUW0oP1mYx9tQyQqYiQPHMKAuzXYtJfyZeX0ldZYmc-K6t_CKE&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=WSvaOqrxOAUsTOsGxVG0jw&_nc_ss=7d289&oh=00_Af9YEWQES03BhGZgRI_uC4QH0jwY4mCFlxDXg6m_zMdWTw&oe=6A33B91A
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1615630133076820 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1615630133076820']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=23412). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='69K views · 1.4K reactions | ¿Te diagnosticaron ansiedad o depresión y los tratamientos nunca terminan de funcionar? El autismo en adultos se camufla durante décadas. En mujeres, 1 de cada 3 recibe un diagnóstico psiquiátrico equivocado. 🩺 Consulta médica link en mi perfil 🔗 ⛔ Por seguridad no sugiero tratamientos por chat. #SaludMental #Autismo #Neurodivergencia #Bienestar | El Doctor Victor Te Cuida', duración=168, canal='El Doctor Victor Te Cuida', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t51.82787-10/671026245_18348169801243553_847112749685872966_n.jpg?stp=dst-jpg_tt6&cstp=mx540x960&ctp=s540x960&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=gCyN6ti5K2cQ7kNvwGhm5m9&_nc_oc=AdqqN26LHrMQ9RipEz7QPOjHZzX8voWWNejk9jIYBTkfkBqWIMMnI2I8aQq7jmZ9k9VQFAiphdkgAMgmlTyoEhzZ&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=Qxov4q9oWQjqShxdK9MrpQ&_nc_ss=7d289&oh=00_Af-A0sCOMbHW-RlxN7zjScd_-VH6sdDxNix-lY3k4kGwwQ&oe=6A33D53F'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t51.82787-10/671026245_18348169801243553_847112749685872966_n.jpg?stp=dst-jpg_tt6&cstp=mx540x960&ctp=s540x960&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=gCyN6ti5K2cQ7kNvwGhm5m9&_nc_oc=AdqqN26LHrMQ9RipEz7QPOjHZzX8voWWNejk9jIYBTkfkBqWIMMnI2I8aQq7jmZ9k9VQFAiphdkgAMgmlTyoEhzZ&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=Qxov4q9oWQjqShxdK9MrpQ&_nc_ss=7d289&oh=00_Af-A0sCOMbHW-RlxN7zjScd_-VH6sdDxNix-lY3k4kGwwQ&oe=6A33D53F
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1152634490221509 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1152634490221509']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=18341). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='484K views · 11K reactions | Crear USB de Reparación de Pantalla Azul de Windows. #windows #pantallaazul #USB #pendrive #windows | PC fácil Digital', duración=84, canal='PC fácil Digital', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/538390770_1228531202619410_8677927396914172373_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=be8305&_nc_ohc=VHR2S1-ME54Q7kNvwFlK249&_nc_oc=AdqGTqGGIpErb8mokfEzxpVrx6PEo3MU8E4abD5MYCJbw2WE5gNLy6CPCYoRzV06P2SBAPBrsMaLi5lIgTMsmGPH&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=-rfIZBAbeO3HLaFd__LGLA&_nc_ss=7d289&oh=00_Af_ZYopJmpMB0gOh03qmIteqWZyzpSbW61JxhNWdI1s8Zg&oe=6A33D5D3'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/538390770_1228531202619410_8677927396914172373_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=be8305&_nc_ohc=VHR2S1-ME54Q7kNvwFlK249&_nc_oc=AdqGTqGGIpErb8mokfEzxpVrx6PEo3MU8E4abD5MYCJbw2WE5gNLy6CPCYoRzV06P2SBAPBrsMaLi5lIgTMsmGPH&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=-rfIZBAbeO3HLaFd__LGLA&_nc_ss=7d289&oh=00_Af_ZYopJmpMB0gOh03qmIteqWZyzpSbW61JxhNWdI1s8Zg&oe=6A33D5D3
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/774347818891699 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/774347818891699']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25087). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Como Eliminar Virus Troyanos de tu PC sin Acceder al Sistema con USB', duración=193, canal='PC fácil Digital', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/543031556_1511378926687415_8498267131348485631_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1440&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=50ce42&_nc_ohc=gm3eo5d6g9oQ7kNvwFp_ORb&_nc_oc=AdqWb5TAyy1Utn6lYwNp2PhIUBpKXG6Rvd77HlT_PGp5TL4CdgZ2W4YmSj8YHGaq8Tek5GsVqrbt-HR3stga2lMM&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=Nf6S8-bAWXB2FNgS9-ZJ_w&_nc_ss=7d289&oh=00_Af9oDlOR87mlPmztxrbuzjiJu7V5-bSlZtkUfhFRCjZFJA&oe=6A33AAD9'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/543031556_1511378926687415_8498267131348485631_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1440&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=50ce42&_nc_ohc=gm3eo5d6g9oQ7kNvwFp_ORb&_nc_oc=AdqWb5TAyy1Utn6lYwNp2PhIUBpKXG6Rvd77HlT_PGp5TL4CdgZ2W4YmSj8YHGaq8Tek5GsVqrbt-HR3stga2lMM&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=Nf6S8-bAWXB2FNgS9-ZJ_w&_nc_ss=7d289&oh=00_Af9oDlOR87mlPmztxrbuzjiJu7V5-bSlZtkUfhFRCjZFJA&oe=6A33AAD9
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/821408897087848 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/821408897087848']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25129). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Como Instalar Programas de Windows en Linux', duración=327, canal='PC fácil Digital', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/552819121_2269415516837361_1846011042820239669_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=KLiPlZcluwUQ7kNvwEHKbx8&_nc_oc=AdrAxPzVIHefUQb3YbWmqfGU0HGb9b7vBgFNAyaBai2fKQXvV0fcPAofXWo0RG7QhLPxx4YgKEKOl-2eiHxG9q3q&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=ciVxtLTfmvmsxccVyL9npw&_nc_ss=7d289&oh=00_Af__XA2TzZlf60BRLF9NzHOMwhsZVcO1heTorKCfvdfzVQ&oe=6A33CDEF'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/552819121_2269415516837361_1846011042820239669_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=KLiPlZcluwUQ7kNvwEHKbx8&_nc_oc=AdrAxPzVIHefUQb3YbWmqfGU0HGb9b7vBgFNAyaBai2fKQXvV0fcPAofXWo0RG7QhLPxx4YgKEKOl-2eiHxG9q3q&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=ciVxtLTfmvmsxccVyL9npw&_nc_ss=7d289&oh=00_Af__XA2TzZlf60BRLF9NzHOMwhsZVcO1heTorKCfvdfzVQ&oe=6A33CDEF
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_fetch_metadata: URL=https://www.facebook.com/reel/821408897087848 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/821408897087848']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25129). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Como Instalar Programas de Windows en Linux', duración=327, canal='PC fácil Digital', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/552819121_2269415516837361_1846011042820239669_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=KLiPlZcluwUQ7kNvwEHKbx8&_nc_oc=AdrAxPzVIHefUQb3YbWmqfGU0HGb9b7vBgFNAyaBai2fKQXvV0fcPAofXWo0RG7QhLPxx4YgKEKOl-2eiHxG9q3q&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=e63kL4s5K2BikLC9TQDLdA&_nc_ss=7d289&oh=00_Af8IDLCAkWUwDOEpZe7nNpEvG1NT2AbdhCYoL69yHUZJIQ&oe=6A33CDEF'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/552819121_2269415516837361_1846011042820239669_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=KLiPlZcluwUQ7kNvwEHKbx8&_nc_oc=AdrAxPzVIHefUQb3YbWmqfGU0HGb9b7vBgFNAyaBai2fKQXvV0fcPAofXWo0RG7QhLPxx4YgKEKOl-2eiHxG9q3q&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=e63kL4s5K2BikLC9TQDLdA&_nc_ss=7d289&oh=00_Af8IDLCAkWUwDOEpZe7nNpEvG1NT2AbdhCYoL69yHUZJIQ&oe=6A33CDEF
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1606961103728729 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1606961103728729']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=23439). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='957K views · 36K reactions | Un pequeño proyecto que me gustó bastante y ahora sigo expandiendo en la red de mi casa. 🫢 #videography #gadgets #filmmaking #davinciresolve #tech | José Luis', duración=39, canal='José Luis', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t51.71878-10/709306024_4342521572731681_4411521988664798716_n.jpg?stp=dst-jpg_tt6&cstp=mx640x480&ctp=s640x480&_nc_cat=105&ccb=1-7&_nc_sid=50ce42&_nc_ohc=ncdTlYjcPn8Q7kNvwEg8Ly2&_nc_oc=AdrVtHMW_Mrg7elxP1delCSOcd_C8QkO4xbPHxew8yVzJ_rfrTX9yaRIfS7j_gMcihVfgI2n5e3I9jxGHuiqVFUs&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=TBvMSfkFS-s7xA1Cwl_ekg&_nc_ss=7d289&oh=00_Af-JamzISLG5pRBJ9YftNIh8rn3incEPJ5R0DmMxolNhbw&oe=6A33B24F'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t51.71878-10/709306024_4342521572731681_4411521988664798716_n.jpg?stp=dst-jpg_tt6&cstp=mx640x480&ctp=s640x480&_nc_cat=105&ccb=1-7&_nc_sid=50ce42&_nc_ohc=ncdTlYjcPn8Q7kNvwEg8Ly2&_nc_oc=AdrVtHMW_Mrg7elxP1delCSOcd_C8QkO4xbPHxew8yVzJ_rfrTX9yaRIfS7j_gMcihVfgI2n5e3I9jxGHuiqVFUs&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=TBvMSfkFS-s7xA1Cwl_ekg&_nc_ss=7d289&oh=00_Af-JamzISLG5pRBJ9YftNIh8rn3incEPJ5R0DmMxolNhbw&oe=6A33B24F
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1577409230298025 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1577409230298025']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=24526). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='El Mejor Editor de Video Libre y Gratis', duración=88, canal='PC fácil Digital', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/559857694_1161670669250320_521090177700609308_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=50ce42&_nc_ohc=EeEdVSljP8UQ7kNvwF3On0s&_nc_oc=AdqCgenvuChvOr3YIeLV7GXMfay10hffYaJlbb43uOiwfFp6Qy0jX4f13uemrxgD6_vxh4-Mime2992L-4H3KdXe&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=kA8Km5h51Z_k7Lm0cts8wQ&_nc_ss=7d289&oh=00_Af__MCT83ski8TRHWMk6ZCAy33GUTG5PgHMy4WkDarp8kQ&oe=6A33CB62'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/559857694_1161670669250320_521090177700609308_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=50ce42&_nc_ohc=EeEdVSljP8UQ7kNvwF3On0s&_nc_oc=AdqCgenvuChvOr3YIeLV7GXMfay10hffYaJlbb43uOiwfFp6Qy0jX4f13uemrxgD6_vxh4-Mime2992L-4H3KdXe&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=kA8Km5h51Z_k7Lm0cts8wQ&_nc_ss=7d289&oh=00_Af__MCT83ski8TRHWMk6ZCAy33GUTG5PgHMy4WkDarp8kQ&oe=6A33CB62
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/708540915260770 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/708540915260770']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=24586). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Crear USB de Instalación de Windows 10 Iot LTSC', duración=86, canal='PC fácil Digital', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/586006907_1954748575121786_868124382902610182_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=2icIKW1dn78Q7kNvwFQ8ASA&_nc_oc=AdpANzjZRKnA7IxMjW5tkmXeRBQe_KQwvfKeDF6n-qOZMuQFEI6dcexnDzw_bebrnDK4tW8LKSbs26Lh6VDG4HYg&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=1ki7MsQK2lfCaX8VoS3Llg&_nc_ss=7d289&oh=00_Af-S8uwI0uRDOporWBPLtcMcl-XqdDpGwuHzULabipH9Cw&oe=6A33C8E6'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/586006907_1954748575121786_868124382902610182_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=2icIKW1dn78Q7kNvwFQ8ASA&_nc_oc=AdpANzjZRKnA7IxMjW5tkmXeRBQe_KQwvfKeDF6n-qOZMuQFEI6dcexnDzw_bebrnDK4tW8LKSbs26Lh6VDG4HYg&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=1ki7MsQK2lfCaX8VoS3Llg&_nc_ss=7d289&oh=00_Af-S8uwI0uRDOporWBPLtcMcl-XqdDpGwuHzULabipH9Cw&oe=6A33C8E6
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1619268052389902 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1619268052389902']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=22302). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Protege tus Aplicaciones Web con el FIREWALL de Safeline WAF', duración=433, canal='PC fácil Digital', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/590385129_2098227980714925_2185538000041216520_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=be8305&_nc_ohc=gDCku8aMJyYQ7kNvwFPX1Em&_nc_oc=AdrEzGfzjpUBJeol-Qfdf8eZVOQ_B8GNn1ryg9Mse8iXSaItKZ1CJoFGyHloBPk5aKgup1Mp2KTcnbaqfNhS2xnV&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=9wr3-MAp5yMJbh9MZ4KiCg&_nc_ss=7d289&oh=00_Af-7tZr0m5m_SOaZmGSIE52gzk9cdq0SDL5kkVOnxFtaEg&oe=6A33C33A'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/590385129_2098227980714925_2185538000041216520_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=be8305&_nc_ohc=gDCku8aMJyYQ7kNvwFPX1Em&_nc_oc=AdrEzGfzjpUBJeol-Qfdf8eZVOQ_B8GNn1ryg9Mse8iXSaItKZ1CJoFGyHloBPk5aKgup1Mp2KTcnbaqfNhS2xnV&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=9wr3-MAp5yMJbh9MZ4KiCg&_nc_ss=7d289&oh=00_Af-7tZr0m5m_SOaZmGSIE52gzk9cdq0SDL5kkVOnxFtaEg&oe=6A33C33A
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/857970166910857 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/857970166910857']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=19410). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Programa para Editar Videos Open Source', duración=180, canal='PC fácil Digital', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/589905332_1584060819707472_4570393101969814605_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=2Na5BKZSjg0Q7kNvwHdcnhH&_nc_oc=AdrusF4YmZ0X3v3rH5QUXxnLO5R7yLsiK2bAyPVqCu85ZTeAVXwR5jJMQ4lvk_eIQxpoDI_UX1adjCQsczATxfH6&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=OELOwrvabimpJIYborxpYw&_nc_ss=7d289&oh=00_Af-TQ9FQKovf0myLsr4u3BpYNpw2AgAoVm5FA7yRAKmQAA&oe=6A33B154'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/589905332_1584060819707472_4570393101969814605_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=2Na5BKZSjg0Q7kNvwHdcnhH&_nc_oc=AdrusF4YmZ0X3v3rH5QUXxnLO5R7yLsiK2bAyPVqCu85ZTeAVXwR5jJMQ4lvk_eIQxpoDI_UX1adjCQsczATxfH6&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=OELOwrvabimpJIYborxpYw&_nc_ss=7d289&oh=00_Af-TQ9FQKovf0myLsr4u3BpYNpw2AgAoVm5FA7yRAKmQAA&oe=6A33B154
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1882317112465128 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1882317112465128']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=24220). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='722K views · 16K reactions | Como Saber la Cantidad Máxima de Memoria RAM que Soporta tu PC o Laptop. #computacion #hardware #MemoriaRAM #PowerShell #Tecnología #pc #laptop #lifestyle | PC fácil Digital', duración=258, canal='PC fácil Digital', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/671983237_939200602045115_2096249089577353063_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=be8305&_nc_ohc=lR65CWjyIVQQ7kNvwFUk7sS&_nc_oc=AdrYafmjmro2sd9qMHTAIZWVcFIuiVqFktz9OAaMJbHSmYCk6hgoptTkOibb9xz1pq-ctTscsxt_Qwx0hmnDJmqh&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=jwcu4FrsowVp4KdK0gjHxg&_nc_ss=7d289&oh=00_Af-IEcHMD_l3-AJfgGkgLlCa2PoZ6u1o-M_hz4X1NLCZTw&oe=6A33CE30'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/671983237_939200602045115_2096249089577353063_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=be8305&_nc_ohc=lR65CWjyIVQQ7kNvwFUk7sS&_nc_oc=AdrYafmjmro2sd9qMHTAIZWVcFIuiVqFktz9OAaMJbHSmYCk6hgoptTkOibb9xz1pq-ctTscsxt_Qwx0hmnDJmqh&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=jwcu4FrsowVp4KdK0gjHxg&_nc_ss=7d289&oh=00_Af-IEcHMD_l3-AJfgGkgLlCa2PoZ6u1o-M_hz4X1NLCZTw&oe=6A33CE30
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/2002342920366117 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/2002342920366117']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=23803). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='121K views · 3.7K reactions | Error al Iniciar Sesión en Outlook o Hotmail | "Intentalo de Nuevo con otro Dispositivo, usa una VPN | SOLUCIÓN #hotmail #outlook #correo #vpn #lifestyle | PC fácil Digital', duración=94, canal='PC fácil Digital', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/683278034_809104088568925_5950405862206670798_n.jpg?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=be8305&_nc_ohc=TNUj6yWzSOMQ7kNvwEZo_FO&_nc_oc=Adpiun2MPvAAu0hNE-A_bQ0g1KZNkW88ZXc8B6WdNGVW1_6rShmHB50ibwU9QqRbgyxwUfJyKSJNQc8ou4wM_jaJ&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=XJ4ZlVRLbQMh41roVxxauA&_nc_ss=7d289&oh=00_Af9g7bBP0PiI63hP3RQ0cFXRHZa1gFqEwO9gpVTb2DXKjQ&oe=6A33A79F'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/683278034_809104088568925_5950405862206670798_n.jpg?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=be8305&_nc_ohc=TNUj6yWzSOMQ7kNvwEZo_FO&_nc_oc=Adpiun2MPvAAu0hNE-A_bQ0g1KZNkW88ZXc8B6WdNGVW1_6rShmHB50ibwU9QqRbgyxwUfJyKSJNQc8ou4wM_jaJ&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=XJ4ZlVRLbQMh41roVxxauA&_nc_ss=7d289&oh=00_Af9g7bBP0PiI63hP3RQ0cFXRHZa1gFqEwO9gpVTb2DXKjQ&oe=6A33A79F
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1495148569017907 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1495148569017907']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=21201). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='59K views · 2.4K reactions | Revelum Es on Reels', duración=1598, canal='Revelum Es', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/709664618_1823775092341508_6463108724428216594_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=be8305&_nc_ohc=6g-37svKXf8Q7kNvwFvaFF7&_nc_oc=AdrWkBGIOK33d2e9Zgpyhna_NlgRZBhoIy4VWvZdhHNVhti4Ue9C36iGTfXecC3ixNJpeh4jCewZdmsu7k7KGphD&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=iEvAPeSxOP9qEudFR3DdHg&_nc_ss=7d289&oh=00_Af-rt7v6jdh0XqucOSjJH5yTdlNan7UJM61Pff6R3ttXfQ&oe=6A33B5A9'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/709664618_1823775092341508_6463108724428216594_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=be8305&_nc_ohc=6g-37svKXf8Q7kNvwFvaFF7&_nc_oc=AdrWkBGIOK33d2e9Zgpyhna_NlgRZBhoIy4VWvZdhHNVhti4Ue9C36iGTfXecC3ixNJpeh4jCewZdmsu7k7KGphD&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=iEvAPeSxOP9qEudFR3DdHg&_nc_ss=7d289&oh=00_Af-rt7v6jdh0XqucOSjJH5yTdlNan7UJM61Pff6R3ttXfQ&oe=6A33B5A9
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/950293437553332 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/950293437553332']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25015). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='894K views · 20K reactions | El mejor Editor de PDF GRATlS al 100% para Windows. #pdf #programas #Windows11 #pc #laptop ##tecnología | PC fácil Digital', duración=68, canal='PC fácil Digital', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/657499037_3506294849530219_5957639012373700132_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=IEvKrWAgX7MQ7kNvwFXUNWH&_nc_oc=AdqVsYwcHD-2ztF8T4qJTTH_xtHZAzs8Legd7Ft44AGYBuWrBFEqmMoZRQSFyMWWvFSjHgiLiH2SjyYIN9WR7sBb&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=2yXIGJApO0ED3XQbNrbRCw&_nc_ss=7d289&oh=00_Af_ul9804mD-9GZLwQdv2yUaMBbqZgpGQoB2AbxLkk96lA&oe=6A33BF8D'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/657499037_3506294849530219_5957639012373700132_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=IEvKrWAgX7MQ7kNvwFXUNWH&_nc_oc=AdqVsYwcHD-2ztF8T4qJTTH_xtHZAzs8Legd7Ft44AGYBuWrBFEqmMoZRQSFyMWWvFSjHgiLiH2SjyYIN9WR7sBb&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=2yXIGJApO0ED3XQbNrbRCw&_nc_ss=7d289&oh=00_Af_ul9804mD-9GZLwQdv2yUaMBbqZgpGQoB2AbxLkk96lA&oe=6A33BF8D
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/2737274863304280 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/2737274863304280']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25367). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Las paredes de drywall deben estar reforzadas si vas a instalar algún tipo de mueble', duración=163, canal='DrywallDecoracioness A1', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/662344757_794954809927751_8669048768602720103_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=be8305&_nc_ohc=pU4ClJ4VUb4Q7kNvwHjrx-l&_nc_oc=AdpGM608bKKL0GxsWhmd_2MpYR4_IwreLVvQLzsI7TBcWHIFjaT4JpVjSwEa4hk2pfUPXYAoTfAa9UvaeHd3jkES&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=XPvOnIgZCfH2KRXN6uORjQ&_nc_ss=7d289&oh=00_Af9U-ieSplz1Y48e_v6sSS-fluXE_sjxfJzaEmAujrP5Wg&oe=6A33A941'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/662344757_794954809927751_8669048768602720103_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=be8305&_nc_ohc=pU4ClJ4VUb4Q7kNvwHjrx-l&_nc_oc=AdpGM608bKKL0GxsWhmd_2MpYR4_IwreLVvQLzsI7TBcWHIFjaT4JpVjSwEa4hk2pfUPXYAoTfAa9UvaeHd3jkES&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=XPvOnIgZCfH2KRXN6uORjQ&_nc_ss=7d289&oh=00_Af9U-ieSplz1Y48e_v6sSS-fluXE_sjxfJzaEmAujrP5Wg&oe=6A33A941
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1299568088366846 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1299568088366846']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=24968). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='5.1K views · 381 reactions | TE VA MAL LA VIDA POR COMER DEL FRUTO PROHIBIDO!!! | Luis Garre López', duración=97, canal='Luis Garre López', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t51.71878-10/701437123_1314399487449536_1130143406583775596_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=50ce42&_nc_ohc=Y9bxbqZPdyYQ7kNvwGVOWRx&_nc_oc=AdpkEa1ZEG100xmj5dRPgnw_WE2qDXA-UeEoTIgqBjqEBqtVQdNhWXkv7QV_mMrQR5xf5F6izeDua3AS_E3uiszE&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=_AebQgO5e9BSE_f1btcCPQ&_nc_ss=7d289&oh=00_Af_qxMz-3M3qjGu3200gXjtVECt6OFE8lGuRiff-_Ovejg&oe=6A33D12B'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t51.71878-10/701437123_1314399487449536_1130143406583775596_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=50ce42&_nc_ohc=Y9bxbqZPdyYQ7kNvwGVOWRx&_nc_oc=AdpkEa1ZEG100xmj5dRPgnw_WE2qDXA-UeEoTIgqBjqEBqtVQdNhWXkv7QV_mMrQR5xf5F6izeDua3AS_E3uiszE&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=_AebQgO5e9BSE_f1btcCPQ&_nc_ss=7d289&oh=00_Af_qxMz-3M3qjGu3200gXjtVECt6OFE8lGuRiff-_Ovejg&oe=6A33D12B
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/2243291859818684 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/2243291859818684']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=16549). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='1.6K views · 36 reactions | Revelum Es on Reels', duración=2839, canal='Revelum Es', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/696322638_2389722754845671_1516835874546606465_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=be8305&_nc_ohc=FEj6_V-4rSsQ7kNvwENtcaF&_nc_oc=AdoloBeHJPbJoX8bJEKbjJImQ8sg5PaFggurYJmZZAjFkQ6CvqDLn7vSWHPF9rrLWQWeBsvwFSQop1rXNuJeYumS&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=8Pzum6GFExhupjEJuyzVig&_nc_ss=7d289&oh=00_Af9Qj3uXiovtD_cz5x9I0vB8Dr63Iz7cGLXpa8MR_tBVSw&oe=6A33A833'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/696322638_2389722754845671_1516835874546606465_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=be8305&_nc_ohc=FEj6_V-4rSsQ7kNvwENtcaF&_nc_oc=AdoloBeHJPbJoX8bJEKbjJImQ8sg5PaFggurYJmZZAjFkQ6CvqDLn7vSWHPF9rrLWQWeBsvwFSQop1rXNuJeYumS&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=8Pzum6GFExhupjEJuyzVig&_nc_ss=7d289&oh=00_Af9Qj3uXiovtD_cz5x9I0vB8Dr63Iz7cGLXpa8MR_tBVSw&oe=6A33A833
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1139170328386076 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1139170328386076']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=18049). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='317K views · 8.2K reactions | Rompiendo el vicio del cigarrillo - Frank Suárez | Cuerpo Y Mente Saludable', duración=557, canal='Cuerpo Y Mente Saludable', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/702729582_1288216113438054_6850211985196649159_n.jpg?stp=dst-jpg_tt6&cstp=mx720x720&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=50ce42&_nc_ohc=IpCdEEZ_xnwQ7kNvwHruD3Z&_nc_oc=AdpHbbukuVF_NVxDIs3UgS5vhSvwDi4GCgMMgsPociKHm-wyvqomm95t9dlcap6HO2das00byTq4XBV-nd-yfHUL&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=168EZTglJlJlDQTMA7iYGw&_nc_ss=7d289&oh=00_Af9_c5i-QVL3rnouMzX9a569SSQ3mQi4AN44arzxT8UvaA&oe=6A33AB6D'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/702729582_1288216113438054_6850211985196649159_n.jpg?stp=dst-jpg_tt6&cstp=mx720x720&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=50ce42&_nc_ohc=IpCdEEZ_xnwQ7kNvwHruD3Z&_nc_oc=AdpHbbukuVF_NVxDIs3UgS5vhSvwDi4GCgMMgsPociKHm-wyvqomm95t9dlcap6HO2das00byTq4XBV-nd-yfHUL&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=168EZTglJlJlDQTMA7iYGw&_nc_ss=7d289&oh=00_Af9_c5i-QVL3rnouMzX9a569SSQ3mQi4AN44arzxT8UvaA&oe=6A33AB6D
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/2198171517677163 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/2198171517677163']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=27330). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='164K views · 5.2K reactions | Dale vida a tu web con animaciones suaves y elegantes con esta biblioteca. Animar CSS, SVG y elementos del DOM de forma sencilla, sin pelearte con configuraciones raras ni hacks. Ideal para frontend devs que quieren subir un nivel la experiencia de usuario y dejar sensación de producto cuidado. Además, la documentación oficial está llena de ejemplos claros para empezar rápido y sin frustración. → npm install animejs #css3 #uxui #frontend #programacion #programadores | Midudev - Desarrollador Full Stack Javascript', duración=16, canal='Midudev - Desarrollador Full Stack Javascript', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/679054940_1492064102589978_1128023116842936731_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=be8305&_nc_ohc=hxVSJUENI5AQ7kNvwHOb-D7&_nc_oc=AdrZJO1n_Gmrf28NqmsESGChzIcWkHRxvYNaabBfZUJi3Ih1ygD0VmfVe33FKe2iS521NfJhtudEyKiECzVim4Fz&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=88vZhEj2o_KAy8aYhJGlXQ&_nc_ss=7d289&oh=00_Af-wdBlvXLPoh1I7P9ciNVZYacpgnBL4cWwEVnOKKh1EOQ&oe=6A33BCBE'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/679054940_1492064102589978_1128023116842936731_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=be8305&_nc_ohc=hxVSJUENI5AQ7kNvwHOb-D7&_nc_oc=AdrZJO1n_Gmrf28NqmsESGChzIcWkHRxvYNaabBfZUJi3Ih1ygD0VmfVe33FKe2iS521NfJhtudEyKiECzVim4Fz&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=88vZhEj2o_KAy8aYhJGlXQ&_nc_ss=7d289&oh=00_Af-wdBlvXLPoh1I7P9ciNVZYacpgnBL4cWwEVnOKKh1EOQ&oe=6A33BCBE
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/2061009284763007 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/2061009284763007']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25677). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='230K views · 6.4K reactions | Herramientas para optimizar las imágenes de tu página web. ¡No cometas este error de principiante como programador web! #seo #software #programacionweb #uxui #frontend | Midudev - Desarrollador Full Stack Javascript', duración=19, canal='Midudev - Desarrollador Full Stack Javascript', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/710738063_1696524761356740_4723741855195466135_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=be8305&_nc_ohc=KIbdOaH4ygMQ7kNvwHEZub2&_nc_oc=AdrERQ6ST6KqwBLDoRuUwfQUiAEc8DP1bMMWPiok7R_Sw2Idkiw7FuQ8bheHrV4O8TuvP3R4mYkhzqJSWcakVnkE&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=NxC-qg23sEUvBvw4TgOyNg&_nc_ss=7d289&oh=00_Af_gvg902EcnOKpq2UnLTgtlRgNNhDYrc9IWCnXu4Geb5Q&oe=6A33D6E4'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/710738063_1696524761356740_4723741855195466135_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=be8305&_nc_ohc=KIbdOaH4ygMQ7kNvwHEZub2&_nc_oc=AdrERQ6ST6KqwBLDoRuUwfQUiAEc8DP1bMMWPiok7R_Sw2Idkiw7FuQ8bheHrV4O8TuvP3R4mYkhzqJSWcakVnkE&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=NxC-qg23sEUvBvw4TgOyNg&_nc_ss=7d289&oh=00_Af_gvg902EcnOKpq2UnLTgtlRgNNhDYrc9IWCnXu4Geb5Q&oe=6A33D6E4
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1513190193735420 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1513190193735420']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25809). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='52K views · 636 reactions | Nano Banana pro Imagen vertical 9:16. Kiwi antropomorfizado muy tierno y adorable, pequeño, en primer plano, apoyado sobre una estantería de frutas de supermercado. El kiwi es el protagonista, con piel suave tipo goma aterciopelada (sin pelos), ojos grandes y brillantes, expresión curiosa y proporciones infantiles. Estilo 3D animado cute, no hiperrealista, texturas limpias, colores suaves y cálidos, estética de animación moderna. Profundidad de campo media: kiwi en foco nítido, frutas del fondo ligeramente desenfocadas pero reconocibles (bananas, manzanas y otras frutas visibles). Sensación de supermercado real y abundante, estanterías llenas y ordenadas. Cámara con lente 35mm, enfoque prioritario en el kiwi, iluminación difusa y uniforme, composición emocional, profesional y mobile-friendly, alta calidad. PROMPT DE VOZ: GOOGLE FLOW Estilo: infantil, latino neutro, muy tierno Instrucciones de voz: Voz infantil suave, latina neutra, cálida y cercana. Tono dulce, vulnerable, con inocencia. No exagerar. No caricaturesca. Ritmo pausado, respiración natural. Transmite ternura, confianza y un poco de preocupación. Texto a decir (respetar pausas): “¿Sabes por qué no me compran?” (pequeña pausa, voz suave) “No es por mi sabor…” (otra pausa breve) “Es porque nadie explica por qué soy diferente.” 👉 Conoce el sistema que estamos usando hoy para vender con Meta Ads + inteligencia artificial: https://hi.switchy.io/tT0O | Camilo Barbosa TV', duración=957, canal='Camilo Barbosa TV', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/693601175_1017729124123977_5495060372816769718_n.jpg?stp=dst-jpg_tt6&cstp=mx2560x1440&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=be8305&_nc_ohc=x1flcl8djmMQ7kNvwFHG1ZV&_nc_oc=AdoRLe97DKokYEoFmJuWCXcIm6h5Str98xRUcFSw4XK5AGWVt-MK72EsGvZ1CRUhAC3062Sg7p4RC6ED_2ojr2nu&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=pEh7CZJgqI7_ZGnDH-6IPg&_nc_ss=7d289&oh=00_Af9UWa17Br5-RYwRWd94DRXJWGJjqOtBvfMJ_GAYICXVHw&oe=6A33CD85'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/693601175_1017729124123977_5495060372816769718_n.jpg?stp=dst-jpg_tt6&cstp=mx2560x1440&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=be8305&_nc_ohc=x1flcl8djmMQ7kNvwFHG1ZV&_nc_oc=AdoRLe97DKokYEoFmJuWCXcIm6h5Str98xRUcFSw4XK5AGWVt-MK72EsGvZ1CRUhAC3062Sg7p4RC6ED_2ojr2nu&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=pEh7CZJgqI7_ZGnDH-6IPg&_nc_ss=7d289&oh=00_Af9UWa17Br5-RYwRWd94DRXJWGJjqOtBvfMJ_GAYICXVHw&oe=6A33CD85
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1481406800139931 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1481406800139931']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=23451). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='418K views · 14K reactions | Revelum Es on Reels', duración=11297, canal='Revelum Es', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/710812952_1708904753865954_5823624102251995274_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=be8305&_nc_ohc=PQXWzShhsLAQ7kNvwHekoiM&_nc_oc=Adp3_DIyKHv62-RevdVPgM6tmUs8v4tAcMAnoQ7rMh2wNr5PnVV6fkQMzd8Z3p5LxN5tNJ3zFmACDe2m-uTBLoaK&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=djKzvUhuq9mRVXDYImJFqA&_nc_ss=7d289&oh=00_Af8qArMecYGCTQmG7YjnL4JHbyqfqTXyVxmIlyWaNNZrEQ&oe=6A33ABB9'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/710812952_1708904753865954_5823624102251995274_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=be8305&_nc_ohc=PQXWzShhsLAQ7kNvwHekoiM&_nc_oc=Adp3_DIyKHv62-RevdVPgM6tmUs8v4tAcMAnoQ7rMh2wNr5PnVV6fkQMzd8Z3p5LxN5tNJ3zFmACDe2m-uTBLoaK&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=djKzvUhuq9mRVXDYImJFqA&_nc_ss=7d289&oh=00_Af8qArMecYGCTQmG7YjnL4JHbyqfqTXyVxmIlyWaNNZrEQ&oe=6A33ABB9
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1671018507606167 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1671018507606167']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=24704). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Te enseño a masillar las placas de yeso', duración=177, canal='DrywallDecoracioness A1', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/643868319_1171852684860294_6815166808906317608_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=be8305&_nc_ohc=8uBLZs25ERYQ7kNvwE6Nb_D&_nc_oc=AdoBnriR2AYnK_q1CQH8NiNlnj-jHCMLlNmYHHnCjmAw7tqCp3aM1g9UPXh2FJ1n8Jw-jCw3IV15izhijdwr4CGV&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=jYvQtuememFIwHtuoz0w2Q&_nc_ss=7d289&oh=00_Af9Zorfu27XBaAaa4gkEPXQQQ0q6YTW94SS4fxIW5Eq0_A&oe=6A33C661'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/643868319_1171852684860294_6815166808906317608_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=be8305&_nc_ohc=8uBLZs25ERYQ7kNvwE6Nb_D&_nc_oc=AdoBnriR2AYnK_q1CQH8NiNlnj-jHCMLlNmYHHnCjmAw7tqCp3aM1g9UPXh2FJ1n8Jw-jCw3IV15izhijdwr4CGV&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=jYvQtuememFIwHtuoz0w2Q&_nc_ss=7d289&oh=00_Af9Zorfu27XBaAaa4gkEPXQQQ0q6YTW94SS4fxIW5Eq0_A&oe=6A33C661
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1319749060110265 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1319749060110265']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=20061). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='450 reactions · 9 comments | ¿Fabricás letras LED? Con PROLED3D podés pasar de un SVG a archivos STL y DXF listos para producir, sin perder horas armando todo manualmente. Más de 20 modelos de letras, incluyendo frentes calados, bases encastrables y estructuras listas para impresión 3D + acrílico. Probalo gratis en: 👉 PROLED3D.COM | Proled3d', duración=129, canal='Proled3d', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t51.82787-10/671149076_18007651817874732_7110253809592103560_n.jpg?stp=dst-jpg_tt6&cstp=mx540x960&ctp=s540x960&_nc_cat=107&ccb=1-7&_nc_sid=50ce42&_nc_ohc=0SfwQ1gnG9UQ7kNvwFGOv04&_nc_oc=AdoEWiUem4nxlfO3NhMlrJzkCB60Q-pCEVQezN9vyJoMLGOpxw4sj5OlUrYoH-RFRkbDxyYMdR6yG9Z6f_8KeUN-&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=lvB344RDxAKlBGyk36ddYg&_nc_ss=7d289&oh=00_Af9E4vGnxM64oqJq91C3AAaPR7xSQYdb5UyWGQGSh41FRg&oe=6A33CD0B'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t51.82787-10/671149076_18007651817874732_7110253809592103560_n.jpg?stp=dst-jpg_tt6&cstp=mx540x960&ctp=s540x960&_nc_cat=107&ccb=1-7&_nc_sid=50ce42&_nc_ohc=0SfwQ1gnG9UQ7kNvwFGOv04&_nc_oc=AdoEWiUem4nxlfO3NhMlrJzkCB60Q-pCEVQezN9vyJoMLGOpxw4sj5OlUrYoH-RFRkbDxyYMdR6yG9Z6f_8KeUN-&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=lvB344RDxAKlBGyk36ddYg&_nc_ss=7d289&oh=00_Af9E4vGnxM64oqJq91C3AAaPR7xSQYdb5UyWGQGSh41FRg&oe=6A33CD0B
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1479585227000085 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1479585227000085']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25294). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='250K views · 44K reactions | Para tu empresa está genial!!! 😎👨🏻‍💻 #ia #tutorial #paginasweb | romanlohace', duración=30, canal='romanlohace', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/671206577_35961110196838282_6989601347368872010_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=50ce42&_nc_ohc=DOsskB4sdD0Q7kNvwEZpM2J&_nc_oc=Adp_PjxCKBJGDskaBLNhhBYSA0LxSrXPebB7eTH6S-ejAMi0RyzURAn-Ee8vGpt0FbKZv29v6Dd5j9koKvp-6qSg&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=J3n_KQ7VHorusTJ6G9BZzA&_nc_ss=7d289&oh=00_Af_q-I42gh_vszkRHsV9oMxRhLsaw69rxJxhSHLIlcmPeA&oe=6A33C32C'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/671206577_35961110196838282_6989601347368872010_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=50ce42&_nc_ohc=DOsskB4sdD0Q7kNvwEZpM2J&_nc_oc=Adp_PjxCKBJGDskaBLNhhBYSA0LxSrXPebB7eTH6S-ejAMi0RyzURAn-Ee8vGpt0FbKZv29v6Dd5j9koKvp-6qSg&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=J3n_KQ7VHorusTJ6G9BZzA&_nc_ss=7d289&oh=00_Af_q-I42gh_vszkRHsV9oMxRhLsaw69rxJxhSHLIlcmPeA&oe=6A33C32C
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1292206289647436 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1292206289647436']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=23549). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='18K views · 1.3K reactions | ¿Cómo estás generando los archivos para tus letras LED? 🤔 ¿Todavía modelás todo de forma manual? Subí un SVG o escribí un texto y generá archivos listos para producción en segundos ⚡ ✔ STL para impresión 3D ✔ DXF para corte de acrílico ✔ Múltiples estructuras de letras LED ✔ Visualización real de las piezas antes de exportar ✔ Diseñado específicamente para fabricantes de cartelería Menos tiempo diseñando. Más tiempo produciendo. 💡 PROLED3D.COM #letrasled #carteleria #cartelerialuminosa #impresion3d #rotulacion letrascorporeas acrilico signmaking | Proled3d', duración=30, canal='Proled3d', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t51.82787-10/708102695_18009384512874732_5344031983325150936_n.jpg?stp=dst-jpg_tt6&cstp=mx540x960&ctp=s540x960&_nc_cat=109&ccb=1-7&_nc_sid=50ce42&_nc_ohc=HC8jRL4Sl8oQ7kNvwF_u9FU&_nc_oc=AdqGXwLEecVXYXiCYsdDaC0o1jgHWsF8flv3Yp9gnsFOfvWsHARZnZEv558wy_liV4R3S6M11wYy6l-hs5dwKpQK&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=QOvGTL3pffjg0oIoInargQ&_nc_ss=7d289&oh=00_Af8oEluDNAeo-TxU-PXKWolCFkKp0zcFQgqjzBNW_U7X2A&oe=6A33AEDD'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t51.82787-10/708102695_18009384512874732_5344031983325150936_n.jpg?stp=dst-jpg_tt6&cstp=mx540x960&ctp=s540x960&_nc_cat=109&ccb=1-7&_nc_sid=50ce42&_nc_ohc=HC8jRL4Sl8oQ7kNvwF_u9FU&_nc_oc=AdqGXwLEecVXYXiCYsdDaC0o1jgHWsF8flv3Yp9gnsFOfvWsHARZnZEv558wy_liV4R3S6M11wYy6l-hs5dwKpQK&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=QOvGTL3pffjg0oIoInargQ&_nc_ss=7d289&oh=00_Af8oEluDNAeo-TxU-PXKWolCFkKp0zcFQgqjzBNW_U7X2A&oe=6A33AEDD
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1010702708156416 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1010702708156416']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=26182). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='397K views · 11K reactions | Qué es un Home Lab? Tu servidor, tus reglas, cero mensualidades 🛑💻 Atentos a los próximos videos porque se viene el despliegue de Dokploy, n8n y Home Assistant. ¿Listo para armar el tuyo? 🛠️ #Tecnología #Curiosidades #homelab #networking #diy | El Alquimista de Bits', duración=53, canal='El Alquimista de Bits', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/708674259_1003162525559114_1381639566528263400_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=be8305&_nc_ohc=rfsdFBLq2hwQ7kNvwET9JDE&_nc_oc=AdpDfKbaaBof944H2y39Fh84QfmDRurmeQshIlS4sJKhFtbnC4Y-DzMLJfiugcFTivHBeLinxfogyO6rM5oSSPwd&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=APWG5B-0fSH-BI_i_gZ_zQ&_nc_ss=7d289&oh=00_Af8MsLcOy-fU8Yxl6I4PSHHIsPkmOFOfudFHnovyV3-fMg&oe=6A33AEE5'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/708674259_1003162525559114_1381639566528263400_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=be8305&_nc_ohc=rfsdFBLq2hwQ7kNvwET9JDE&_nc_oc=AdpDfKbaaBof944H2y39Fh84QfmDRurmeQshIlS4sJKhFtbnC4Y-DzMLJfiugcFTivHBeLinxfogyO6rM5oSSPwd&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=APWG5B-0fSH-BI_i_gZ_zQ&_nc_ss=7d289&oh=00_Af8MsLcOy-fU8Yxl6I4PSHHIsPkmOFOfudFHnovyV3-fMg&oe=6A33AEE5
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/932286893119359 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/932286893119359']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=18069). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='1.4K views · 36 reactions | Libera tu Xbox 360 #video #xbox #socialmedia #viral #Videojuegos | ASTER TEC', duración=221, canal='ASTER TEC', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/656978858_920977427397070_4520219322325063030_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=50ce42&_nc_ohc=9k-S6rqY3WcQ7kNvwG4VYql&_nc_oc=AdouUsLyWO_1ylSiraObL_40Gph1ppfFmm0NmKhJYMNz19jUENKKyUkQcXhEP5nzalccJNCyVkZAOrvhvUUT8x8g&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=XO0kYZOKSV01cPFq8DBSwA&_nc_ss=7d289&oh=00_Af9p9Z2J87jli6jbAkIERReJV9uBD4n4mP8WjSwp-9wtmw&oe=6A33ACBE'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/656978858_920977427397070_4520219322325063030_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=50ce42&_nc_ohc=9k-S6rqY3WcQ7kNvwG4VYql&_nc_oc=AdouUsLyWO_1ylSiraObL_40Gph1ppfFmm0NmKhJYMNz19jUENKKyUkQcXhEP5nzalccJNCyVkZAOrvhvUUT8x8g&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=XO0kYZOKSV01cPFq8DBSwA&_nc_ss=7d289&oh=00_Af9p9Z2J87jli6jbAkIERReJV9uBD4n4mP8WjSwp-9wtmw&oe=6A33ACBE
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1550555389962318 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1550555389962318']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=23498). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Ollama destrozó a OpenAI', duración=86, canal='Alejavi Rivera', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/709092379_27162860080070782_9064741431161136277_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=50ce42&_nc_ohc=mll7acKY2HcQ7kNvwHBoC2i&_nc_oc=AdqHE4Euz0jKM0bt8Eu6NzqZFUzO6mvsOM5JpwxammqZwQLk6B_-27-9K9cV_-Ze60S0gWgQL3W86DSreroP6-7u&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=ZPKkS9HrThQ9iBBge2bOew&_nc_ss=7d289&oh=00_Af9WAxyDITBdB3S_3RwTBRIicSqvCLCHti5iHYcjwxWHBQ&oe=6A33C848'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/709092379_27162860080070782_9064741431161136277_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=50ce42&_nc_ohc=mll7acKY2HcQ7kNvwHBoC2i&_nc_oc=AdqHE4Euz0jKM0bt8Eu6NzqZFUzO6mvsOM5JpwxammqZwQLk6B_-27-9K9cV_-Ze60S0gWgQL3W86DSreroP6-7u&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=ZPKkS9HrThQ9iBBge2bOew&_nc_ss=7d289&oh=00_Af9WAxyDITBdB3S_3RwTBRIicSqvCLCHti5iHYcjwxWHBQ&oe=6A33C848
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1704048743948786 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1704048743948786']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=17756). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='La IA es mi nuevo empleado   Claude Code', duración=2537, canal='Nate Gentile', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/691550580_3839688856327235_1691188107988876902_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=be8305&_nc_ohc=WBTg5bkU-UwQ7kNvwFZlERl&_nc_oc=AdqBy2aWuZPunqhfKIeaJh7aJB0Gmwy9ivL5QsJxaR7IvMnfkPlL76OhshcgAer0qo9uoEdQcKMb6eX8UbbdvZtH&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=j6uHDb3tnTe0giK5J7-5rQ&_nc_ss=7d289&oh=00_Af-Lc3p2kqHS2JJ_vN_3p1WvDQgs-P8pf14oSOQne2hZsg&oe=6A33DC3D'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/691550580_3839688856327235_1691188107988876902_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=be8305&_nc_ohc=WBTg5bkU-UwQ7kNvwFZlERl&_nc_oc=AdqBy2aWuZPunqhfKIeaJh7aJB0Gmwy9ivL5QsJxaR7IvMnfkPlL76OhshcgAer0qo9uoEdQcKMb6eX8UbbdvZtH&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=j6uHDb3tnTe0giK5J7-5rQ&_nc_ss=7d289&oh=00_Af-Lc3p2kqHS2JJ_vN_3p1WvDQgs-P8pf14oSOQne2hZsg&oe=6A33DC3D
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/897509890016916 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/897509890016916']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=21944). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='7.1K views · 111 reactions | ¿Estás promocionando tus Reels de Instagram pero solo consigues likes y no ventas? 💸 En este vídeo te enseño la estrategia exacta para convertir esos vídeos cortos en una máquina de captación de clientes usando Meta Ads. Muchos cometen el error de simplemente darle al botón azul de "Promocionar" y esperar milagros. Aquí te voy a mostrar cómo hacerlo desde el Administrador de Anuncios para que tu retorno de inversión (ROAS) sea real. ¡Aprende a vender más con Reels de forma profesional! 🚀 👉 Conoce el sistema que estamos usando hoy para vender con Meta Ads + inteligencia artificial: https://hi.switchy.io/tT0O | Camilo Barbosa TV', duración=1900, canal='Camilo Barbosa TV', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/694735423_824972057350318_6858552560675275676_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=be8305&_nc_ohc=hmhcMnRTodgQ7kNvwHJqZ32&_nc_oc=AdrQhIq-93Al0DJ2X5BiKCoUbASBii7F7Frbb5KiL8dibOoPmxeTgiCgsWk0HN37roLRvyf4w6lgTuG2qWQgjkA3&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=yR0keUfrkRpcBLYc0Z5eqg&_nc_ss=7d289&oh=00_Af-PEagvg4DL1o4WaJdfYnnQ_WKOk3KlslmRi99d7ycnbw&oe=6A33CFF9'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/694735423_824972057350318_6858552560675275676_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=be8305&_nc_ohc=hmhcMnRTodgQ7kNvwHJqZ32&_nc_oc=AdrQhIq-93Al0DJ2X5BiKCoUbASBii7F7Frbb5KiL8dibOoPmxeTgiCgsWk0HN37roLRvyf4w6lgTuG2qWQgjkA3&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=yR0keUfrkRpcBLYc0Z5eqg&_nc_ss=7d289&oh=00_Af-PEagvg4DL1o4WaJdfYnnQ_WKOk3KlslmRi99d7ycnbw&oe=6A33CFF9
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/2848524805498466 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/2848524805498466']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25297). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='263K views · 16K reactions | Qué opinan? Legal o abuso del derecho? #derecho #defensadelconsumidor #hack #prestamos #deudas | Abogado del consumidor', duración=22, canal='Abogado del consumidor', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/703978042_1004773239161934_7868969942612760716_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=50ce42&_nc_ohc=kL8-bSMuPwAQ7kNvwGS4R8i&_nc_oc=Adpmdic4yvZ_xXQLAWEUdM5ntAAhwu2VDQM9djkQh-qk35tAdHthGexXKaEughrk0KLhwpyT699qiosLM1s6eYgm&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=mDT5X5jud7KEHtzumoB8IA&_nc_ss=7d289&oh=00_Af-yzQwfeLSBcAKTBRxGS9Kz9BibBz294niFTN_cDJjkKA&oe=6A33AD43'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/703978042_1004773239161934_7868969942612760716_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=50ce42&_nc_ohc=kL8-bSMuPwAQ7kNvwGS4R8i&_nc_oc=Adpmdic4yvZ_xXQLAWEUdM5ntAAhwu2VDQM9djkQh-qk35tAdHthGexXKaEughrk0KLhwpyT699qiosLM1s6eYgm&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=mDT5X5jud7KEHtzumoB8IA&_nc_ss=7d289&oh=00_Af-yzQwfeLSBcAKTBRxGS9Kz9BibBz294niFTN_cDJjkKA&oe=6A33AD43
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.youtube.com/watch?v=KLj7wU5jgTg&t=381s | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.youtube.com/watch?v=KLj7wU5jgTg&t=381s']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=588605). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Antigravity 2.0 es una LOCURA: la IA que trabaja en tu PC', duración=1261, canal='NextGen IA Hub', miniatura='https://i.ytimg.com/vi/KLj7wU5jgTg/maxresdefault.jpg'
+Descargando miniatura desde: https://i.ytimg.com/vi/KLj7wU5jgTg/maxresdefault.jpg
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/2104197726788637 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/2104197726788637']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=19088). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Reparación de bisagra', duración=41, canal='Soluciones Informaticas Torres S.A.C', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/699530469_936117456090189_3288052909944682669_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=50ce42&_nc_ohc=UNh4BV0zwucQ7kNvwHR9gXs&_nc_oc=AdrzAr-fyFrbQLmsaYlgK6B0DvEHzhEub6uVFXTPC4qoHTB-Y2xS4RlQhTzw0-tYyuS67EkpZX4C2w13cdeiy6eb&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=VUWUXfOwFpcQT5P6r8xPXA&_nc_ss=7d289&oh=00_Af9-Lm4tUZxxUHEaEHPpz5TW74Pv5jm2c6XaeoNgEpfqDw&oe=6A33C6F0'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/699530469_936117456090189_3288052909944682669_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=50ce42&_nc_ohc=UNh4BV0zwucQ7kNvwHR9gXs&_nc_oc=AdrzAr-fyFrbQLmsaYlgK6B0DvEHzhEub6uVFXTPC4qoHTB-Y2xS4RlQhTzw0-tYyuS67EkpZX4C2w13cdeiy6eb&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=VUWUXfOwFpcQT5P6r8xPXA&_nc_ss=7d289&oh=00_Af9-Lm4tUZxxUHEaEHPpz5TW74Pv5jm2c6XaeoNgEpfqDw&oe=6A33C6F0
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1527573768883427 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1527573768883427']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=16478). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='67K views · 870 reactions | Ustedes cual utilizan? #celulares #YoTeLoArreglo #reel #socio #facebook #exito #parati | yo te lo arreglo', duración=9, canal='yo te lo arreglo ', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/703953759_1031306886239672_8508863017684220416_n.jpg?stp=dst-jpg_tt6&cstp=mx360x640&ctp=s360x640&_nc_cat=100&ccb=1-7&_nc_sid=50ce42&_nc_ohc=9hGDRkrgDVEQ7kNvwE-AgXq&_nc_oc=AdozoQrOg2qWxz79sNuna6k9bjFcVDZ__CgystP-KEdNM4N_IbTjfwAVb8rs5Kr44lINOM3gARaO8eZNUHSPNW4V&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=80bKrCAzCQNt7kwkSGdHwQ&_nc_ss=7d289&oh=00_Af8J6UzC3xXXsnfiMKZSOhcR4_chiQuuH7KkUVxtsiP7eA&oe=6A33CBFD'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/703953759_1031306886239672_8508863017684220416_n.jpg?stp=dst-jpg_tt6&cstp=mx360x640&ctp=s360x640&_nc_cat=100&ccb=1-7&_nc_sid=50ce42&_nc_ohc=9hGDRkrgDVEQ7kNvwE-AgXq&_nc_oc=AdozoQrOg2qWxz79sNuna6k9bjFcVDZ__CgystP-KEdNM4N_IbTjfwAVb8rs5Kr44lINOM3gARaO8eZNUHSPNW4V&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=80bKrCAzCQNt7kwkSGdHwQ&_nc_ss=7d289&oh=00_Af8J6UzC3xXXsnfiMKZSOhcR4_chiQuuH7KkUVxtsiP7eA&oe=6A33CBFD
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/947575347975238 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/947575347975238']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=28010). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='4.5K views · 35K reactions | Fácil! Bueno, bonito y barato👌 Puertas de PVC | Isai Reyes', duración=175, canal='Isai Reyes', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t51.82787-10/623090855_18559483135053090_5898329257589851178_n.jpg?stp=dst-jpg_tt6&cstp=mx748x1328&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=50ce42&_nc_ohc=VfIOWkUzsusQ7kNvwFmlKVB&_nc_oc=AdowtIYXO9nR_amXQTDrTTGg3zs3R0dAao2TSMAkVSiI4zmwkrPLgjnBDH-0JtWXhZnsOaSBF-z-yC6aEu8Sg2LG&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=DiFlk-0TTX5xA8mXSgOUBw&_nc_ss=7d289&oh=00_Af-gSHoLSO0bysaqk37H6fwxPEY4Fh6GIpZVXLWp80aZ-A&oe=6A33B929'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t51.82787-10/623090855_18559483135053090_5898329257589851178_n.jpg?stp=dst-jpg_tt6&cstp=mx748x1328&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=50ce42&_nc_ohc=VfIOWkUzsusQ7kNvwFmlKVB&_nc_oc=AdowtIYXO9nR_amXQTDrTTGg3zs3R0dAao2TSMAkVSiI4zmwkrPLgjnBDH-0JtWXhZnsOaSBF-z-yC6aEu8Sg2LG&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=DiFlk-0TTX5xA8mXSgOUBw&_nc_ss=7d289&oh=00_Af-gSHoLSO0bysaqk37H6fwxPEY4Fh6GIpZVXLWp80aZ-A&oe=6A33B929
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1358334363013831 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1358334363013831']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=29917). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='217K views · 9.7K reactions | ¡Olvídate del Wi-Fi para largas distancias! Así funciona LoRa realmente 📡🔋 De la Segunda Guerra Mundial a tus proyectos de electrónica. 🛠️📡 Muchos creen que los chips LoRa atraviesan el concreto macizo mágicamente, pero la física no funciona así. En frecuencias Sub-GHz, el verdadero secreto está en la reflexión y difracción: la señal rebota en los edificios y bordea los obstáculos de la ciudad sin perderse, permitiendo recuperar datos incluso por debajo del piso de ruido. 🤯 Ideal para telemetría, GPS y sensores industriales sin devorarte la batería. ¿Quieres que hagamos un video programando el SX1276 / SX1278 en vivo para probar su alcance real en la ciudad? ¡Déjanos un comentario y comparte con otro apasionado de la electrónica! 🔌👨‍💻 #Electrónica #ingenieria #curiosidades #Dato #maker#Tecnología #arduino #ESP32 #Venezuela | Software Factory de Venezuela, S.A', duración=105, canal='Software Factory de Venezuela, S.A', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/705087602_4157160157838039_44837005706061453_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=8ZTjatn-maoQ7kNvwEgBb-e&_nc_oc=Adpt7NmtY-anBroOldyTPNkWHBZiCOYc5gcMoRpz_55ld_FE-mHePXoyKKJ7O6Fh28G2TKvjPzeWUcMSmKzIJV2F&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=xbWb0t9ewMc8Z0ZVddoGAg&_nc_ss=7d289&oh=00_Af-IN2-pKayZ03_9b3ULo6bcTyZVkdodL-E9DFK-r5hCfA&oe=6A33B6E9'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/705087602_4157160157838039_44837005706061453_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=be8305&_nc_ohc=8ZTjatn-maoQ7kNvwEgBb-e&_nc_oc=Adpt7NmtY-anBroOldyTPNkWHBZiCOYc5gcMoRpz_55ld_FE-mHePXoyKKJ7O6Fh28G2TKvjPzeWUcMSmKzIJV2F&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=xbWb0t9ewMc8Z0ZVddoGAg&_nc_ss=7d289&oh=00_Af-IN2-pKayZ03_9b3ULo6bcTyZVkdodL-E9DFK-r5hCfA&oe=6A33B6E9
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/853955280519398 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/853955280519398']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=23975). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='27K views · 860 reactions | Mas Información: https://www.cyberpower.com/mx/es/product/sku/gx150c2 Adquirir este modelo: https://www.amazon.com.mx/CyberPower-GX150C2-sobretensi%C3%B3n-iluminaci%C3%B3n-Certificado/dp/B0GH32Z7BJ ¿Estás conectando tu PC a una regleta? PARA. Antes de que sea demasiado tarde, mira este video. La mayoría de usuarios conectan su computadora a una regleta pensando que están protegidos… y están cometiendo un ERROR gravísimo que puede dañar o destruir su equipo por completo. En este video te explicamos por qué las regletas NO son suficientes para proteger tu PC, qué pasa realmente cuando hay un pico de voltaje o un apagón, y cómo el UPS CyberPower GX150C2 puede salvar tu equipo (y tu información) de una catástrofe. 🔌 ¿Qué verás en este video? Por qué las regletas son una trampa para tu PC Qué es un UPS y cómo funciona realmente Review completa del CyberPower GX150C2 La diferencia que NADIE te explica 🛒 Consigue el UPS CyberPower GX150C2 aquí: 👉 ⚡ Protege tu inversión antes de que sea tarde. #CyberPower #UPS #mazthertutoriales | Mazthertutoriales', duración=619, canal='Mazthertutoriales', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/707415173_1746131076757476_2001353273822028600_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=be8305&_nc_ohc=pFPjH5dIevAQ7kNvwEj-3eO&_nc_oc=AdoEE2dXSSm48xmNC0DY7yWxnhMNOGzez6u9mcYOMyMMyHf79SN8phXzkv7Y-dlQEu5dc2RRXtFQDpCLueMcCtAC&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=kKNM-qRRDqqnMwh1VWLCSg&_nc_ss=7d289&oh=00_Af8DgZaYzWMsqNQMtBvpZ_yNPKy4AYM3Oa1LzCZ7Qi4edQ&oe=6A33E1C8'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/707415173_1746131076757476_2001353273822028600_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=be8305&_nc_ohc=pFPjH5dIevAQ7kNvwEj-3eO&_nc_oc=AdoEE2dXSSm48xmNC0DY7yWxnhMNOGzez6u9mcYOMyMMyHf79SN8phXzkv7Y-dlQEu5dc2RRXtFQDpCLueMcCtAC&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=kKNM-qRRDqqnMwh1VWLCSg&_nc_ss=7d289&oh=00_Af8DgZaYzWMsqNQMtBvpZ_yNPKy4AYM3Oa1LzCZ7Qi4edQ&oe=6A33E1C8
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/964772376243642 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/964772376243642']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=26211). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='1K reactions · 97 shares | TOP 5 componentes UI para sitios web modernos Mostrando 5 componentes de Aeternity UI que mejoran al instante el diseño de cualquier sitio web. Visuales limpias, interacciones fluidas y código amigable para developers, perfecto para proyectos web modernos. #diseñoweb #frontend #ui #programacion #ia | Santia', duración=29, canal='Santia', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/658944936_1257398479886788_7966509666934726818_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=2KIAanKGkhEQ7kNvwE7zs1d&_nc_oc=Adq8iKeL2m1fnl4FEukifOJTreRLaPilG1fyV0TBALsN6SCZqatBzcOA0ejFUMy3UHpyAEtLHD5OzYNI07Z2hehT&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=jLpuKYKSoiov9A3Mtg-NxQ&_nc_ss=7d289&oh=00_Af-j2F5upu6zWPcE3UFHVZ_VY3e0CxJDeODWIyOSGH8c-w&oe=6A33BD3D'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/658944936_1257398479886788_7966509666934726818_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=2KIAanKGkhEQ7kNvwE7zs1d&_nc_oc=Adq8iKeL2m1fnl4FEukifOJTreRLaPilG1fyV0TBALsN6SCZqatBzcOA0ejFUMy3UHpyAEtLHD5OzYNI07Z2hehT&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=jLpuKYKSoiov9A3Mtg-NxQ&_nc_ss=7d289&oh=00_Af-j2F5upu6zWPcE3UFHVZ_VY3e0CxJDeODWIyOSGH8c-w&oe=6A33BD3D
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1527126375795376 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1527126375795376']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=5429). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Dejé de informarme como todos… y ahora veo lo que pasa antes que los demás', duración=39, canal='Bradley IA', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/671629205_2473478269764061_7553239177831375806_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x2560&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=be8305&_nc_ohc=RQ3N6oGHruEQ7kNvwHYkBDA&_nc_oc=AdpG2eE69kO_oEl_Sie1mzWnDqSu-YkB3eqPrDEUY9qXVGNWiQtyFtpOctHNBjCJmzYYArnveHt-LqASRD1pcv0J&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=klOLLpfxbJCGVEBqs3XhjA&_nc_ss=7d289&oh=00_Af8dCkRma_hg59QfDxazRP_VuKu4Uzk4UDmRjhXisJF9rg&oe=6A33DF0C'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/671629205_2473478269764061_7553239177831375806_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x2560&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=be8305&_nc_ohc=RQ3N6oGHruEQ7kNvwHYkBDA&_nc_oc=AdpG2eE69kO_oEl_Sie1mzWnDqSu-YkB3eqPrDEUY9qXVGNWiQtyFtpOctHNBjCJmzYYArnveHt-LqASRD1pcv0J&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=klOLLpfxbJCGVEBqs3XhjA&_nc_ss=7d289&oh=00_Af8dCkRma_hg59QfDxazRP_VuKu4Uzk4UDmRjhXisJF9rg&oe=6A33DF0C
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1976650989871550 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1976650989871550']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25315). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='1.7M views · 27K reactions | Borra YouTube de tu móvil. Esta impossible! #tips #consejos #trucos #Información #tecnologias #españa #Doctorsoluciones | Doctor Soluciones', duración=55, canal='Doctor Soluciones', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/649528856_1959916451269632_512048881386077832_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=50ce42&_nc_ohc=gzIks_-Tv64Q7kNvwGqsIzW&_nc_oc=Adoi28CtabhUGFvRLAgQE4stAKRQED7DZNQ-0gMuRoSVV65RH4B1GMK0Gzho0kw3gFB1IA_PAJ1ExqvnkTh8qYoZ&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=0GGngyGgCfR9uaCJZzvKPg&_nc_ss=7d289&oh=00_Af9Tm4gpCvz_mtypPCtv3EYLgJc9FALpaRUU-zlyiBtv4g&oe=6A33BCBB'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/649528856_1959916451269632_512048881386077832_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=50ce42&_nc_ohc=gzIks_-Tv64Q7kNvwGqsIzW&_nc_oc=Adoi28CtabhUGFvRLAgQE4stAKRQED7DZNQ-0gMuRoSVV65RH4B1GMK0Gzho0kw3gFB1IA_PAJ1ExqvnkTh8qYoZ&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=0GGngyGgCfR9uaCJZzvKPg&_nc_ss=7d289&oh=00_Af9Tm4gpCvz_mtypPCtv3EYLgJc9FALpaRUU-zlyiBtv4g&oe=6A33BCBB
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.youtube.com/watch?v=F7udttVqN8w | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.youtube.com/watch?v=F7udttVqN8w']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=583960). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='🔥Como REPARAR DISCO SSD M.2 NVME MUERTO!👈😱 Paso a paso bien explicado.', duración=1339, canal='Zona Hardware', miniatura='https://i.ytimg.com/vi/F7udttVqN8w/maxresdefault.jpg'
+Descargando miniatura desde: https://i.ytimg.com/vi/F7udttVqN8w/maxresdefault.jpg
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/897397462704209 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/897397462704209']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=21631). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='32K views · 774 reactions | ¿Windows más rápido… o Windows roto? 🔥 Seguro has visto esta herramienta recomendada para “optimizar Windows”, pero pocos explican qué hace realmente y qué cosas NO deberías tocar. En este video te explico, sin tutorial aburrido, para qué sirve cada sección de la herramienta de Chris Titus Tech, cuáles opciones sí valen la pena y cuáles pueden meterte en problemas si las usas mal. 👉 No es magia 👉 No es para todos 👉 Pero bien usada, te da control total sobre Windows Si usas tu PC para trabajar, jugar o crear contenido, este video te puede ahorrar muchos dolores de cabeza. ▶️ Míralo completo antes de usarla 👀 | Mazthertutoriales', duración=1028, canal='Mazthertutoriales', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/615983806_1436233471464418_4259018240210642130_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=be8305&_nc_ohc=w9iNfZ1Arp8Q7kNvwGufXSo&_nc_oc=Adru7ES5qSbTQhfkikr1nCQpib8-R-DaazHMtZrXUtFforG0t7_bymxXXG2hzO0aGypXBQUAd8gqUZ7ClXDhCjru&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=eLhCljE2OsfuUpyjDKkhCg&_nc_ss=7d289&oh=00_Af_PSCNpwVQv7eXBEzixsXM-2r4ZB5xxR0XZiTpc7YY5IQ&oe=6A33AFC3'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t15.5256-10/615983806_1436233471464418_4259018240210642130_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=be8305&_nc_ohc=w9iNfZ1Arp8Q7kNvwGufXSo&_nc_oc=Adru7ES5qSbTQhfkikr1nCQpib8-R-DaazHMtZrXUtFforG0t7_bymxXXG2hzO0aGypXBQUAd8gqUZ7ClXDhCjru&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=eLhCljE2OsfuUpyjDKkhCg&_nc_ss=7d289&oh=00_Af_PSCNpwVQv7eXBEzixsXM-2r4ZB5xxR0XZiTpc7YY5IQ&oe=6A33AFC3
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1986069802306517 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1986069802306517']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25178). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='6.8K views · 15K reactions | ✨ This is 432 Hz Golden Ratio. It will raise your frequency. Most “healing music” online feels nice… but the real frequencies are buried under layers of sound — so your body never actually receives the benefit. This is different. These tones are built using the Golden Ratio (1.618…) — the same mathematical pattern found in seashells, galaxies, flowers, pinecones, waves, DNA, and even your heartbeat. When frequencies are spaced by this ratio, your whole system responds. ✨ Your brain recognizes the structure 💗 Your nervous system relaxes ⚡ Your vibration rises 😴 Your sleep deepens 🌊 You feel aligned again It’s not hype. It’s proportion. It’s coherence. It’s nature’s blueprint for harmony turned into sound. Over 20,000 of us are using these frequencies every single day — and the messages I get are unreal… clarity returning, stress dissolving, energy lifting. ✨ Comment “golden” if you want the full version for yourself. | Banah Winn', duración=11, canal='Banah Winn', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/645842778_911702371603620_704411091965754825_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=50ce42&_nc_ohc=UFkdsNxVF2kQ7kNvwFskI7w&_nc_oc=AdpChX7NzSp-sGnepYiUoXOUBn9yfqHuT_uhqS9ZoKpk4xagbXd3ySDTHF4TWAK64qb0U91SdfypXxmd9iYA0WQ_&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=vme7v7kH-FuFlkqE0TP5Sw&_nc_ss=7d289&oh=00_Af8CDn6FbhIxEuku-Oo8D3CVTC4TKuM0oJtjl6qyTtveVg&oe=6A33C0C8'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/645842778_911702371603620_704411091965754825_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=50ce42&_nc_ohc=UFkdsNxVF2kQ7kNvwFskI7w&_nc_oc=AdpChX7NzSp-sGnepYiUoXOUBn9yfqHuT_uhqS9ZoKpk4xagbXd3ySDTHF4TWAK64qb0U91SdfypXxmd9iYA0WQ_&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=vme7v7kH-FuFlkqE0TP5Sw&_nc_ss=7d289&oh=00_Af8CDn6FbhIxEuku-Oo8D3CVTC4TKuM0oJtjl6qyTtveVg&oe=6A33C0C8
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Solo Audio (MP3 - Alta Calidad)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.instagram.com/reels/DXKmQUoxgd8/ | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.instagram.com/reels/DXKmQUoxgd8/']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=20635). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Video by loc.diseno', duración=101, canal='Luis Osorio Castellini Diseño', miniatura='https://instagram.feze8-1.fna.fbcdn.net/v/t51.71878-15/671236071_2137389130445830_5551365048569631830_n.jpg?se=-1&stp=dst-jpegr_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDAuaGRyLnZpZGVvX25mcmFtZV9jb3Zlcl9mcmFtZS5jMiJ9&_nc_ht=instagram.feze8-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2gEIbk0AAZgxmXa8z7wmgzIyqFX9x24CJ1npx1zC1NMSWckT_rNCAOiBpMsLj7xXlHMH5N804RW1yg3ssgx5ux5P&_nc_ohc=7_wvmgZdCM8Q7kNvwFIBTR2&_nc_gid=o52LIF-W75Cn7na9qY908g&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af_28ar1wzz1RHmk8LEHjuHpXics1i7uTILz0_mmq0V-wQ&oe=6A33D5EF&_nc_sid=d885a2'
+Descargando miniatura desde: https://instagram.feze8-1.fna.fbcdn.net/v/t51.71878-15/671236071_2137389130445830_5551365048569631830_n.jpg?se=-1&stp=dst-jpegr_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDAuaGRyLnZpZGVvX25mcmFtZV9jb3Zlcl9mcmFtZS5jMiJ9&_nc_ht=instagram.feze8-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2gEIbk0AAZgxmXa8z7wmgzIyqFX9x24CJ1npx1zC1NMSWckT_rNCAOiBpMsLj7xXlHMH5N804RW1yg3ssgx5ux5P&_nc_ohc=7_wvmgZdCM8Q7kNvwFIBTR2&_nc_gid=o52LIF-W75Cn7na9qY908g&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_Af_28ar1wzz1RHmk8LEHjuHpXics1i7uTILz0_mmq0V-wQ&oe=6A33D5EF&_nc_sid=d885a2
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/844714478657266 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/844714478657266']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=28153). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Prueba Suno hoy', duración=38, canal='Suno', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/673557682_844714521990595_6368360042665453175_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=be8305&_nc_ohc=NkZVfnoQY9sQ7kNvwHvbdOi&_nc_oc=AdqMGUk4-HfsY4ZbkjpMrHfNSu1Z_D88PuX0X6tPB6KYwJvFisOT8hgu4AxBVm8z0ZfCyzFECRKAW8W_f0E1g0Xa&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=nB5lVPZSZHGYbGm60ttHlg&_nc_ss=7d289&oh=00_Af8kOpwqvzUxsqDHvz71oxORm46SpuzNIjpMEtnMKYS6Jg&oe=6A33E38B'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/673557682_844714521990595_6368360042665453175_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=be8305&_nc_ohc=NkZVfnoQY9sQ7kNvwHvbdOi&_nc_oc=AdqMGUk4-HfsY4ZbkjpMrHfNSu1Z_D88PuX0X6tPB6KYwJvFisOT8hgu4AxBVm8z0ZfCyzFECRKAW8W_f0E1g0Xa&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=nB5lVPZSZHGYbGm60ttHlg&_nc_ss=7d289&oh=00_Af8kOpwqvzUxsqDHvz71oxORm46SpuzNIjpMEtnMKYS6Jg&oe=6A33E38B
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/960131586803281 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/960131586803281']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=26019). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='26K views · 685 reactions | La alternativa open source a Claude Design 🤯 Open Design #ia #developer #ui #frontend #uxdesign | Javiwebdesign', duración=37, canal='Javiwebdesign', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/684504100_1462767032536423_5761589886271148446_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=50ce42&_nc_ohc=eO1tN5rgmqoQ7kNvwEc1jao&_nc_oc=AdodrDLBiHsEgX2TcAGEh9IKazaMKnBI73zLW-B1wl6jqh0ipoMmWhzakt4sR6aO3mEdUh4jaQxDmVDTJVwCVKwJ&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=LOzA2jV05XHVXAXiUScH-w&_nc_ss=7d289&oh=00_Af9NIP-sObSbfebxpAVI-4fETTHJO-xePmdiaL7zmXt4ig&oe=6A33E381'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/684504100_1462767032536423_5761589886271148446_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=50ce42&_nc_ohc=eO1tN5rgmqoQ7kNvwEc1jao&_nc_oc=AdodrDLBiHsEgX2TcAGEh9IKazaMKnBI73zLW-B1wl6jqh0ipoMmWhzakt4sR6aO3mEdUh4jaQxDmVDTJVwCVKwJ&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=LOzA2jV05XHVXAXiUScH-w&_nc_ss=7d289&oh=00_Af9NIP-sObSbfebxpAVI-4fETTHJO-xePmdiaL7zmXt4ig&oe=6A33E381
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/963515213142267 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/963515213142267']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=5658). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='3.3K views · 47 reactions | ¿8 GB en 2026? Ya no alcanzan 💻 #RAM #Windows #Mac #Tech #Tecnologia | OneTronic', duración=64, canal='OneTronic', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/680471557_1645905629995824_1057082232695816305_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=50ce42&_nc_ohc=7iMi1p00BdwQ7kNvwFN5d7L&_nc_oc=AdrOgDHz_8fJnm83_u_L393F2Qx1sl3B9h5yMQElPr_JXsh0zjiDMM0xpSlHlrD8lAObht2-tSjFZY-DnL5t8C4F&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=DIhz8GPY5Ersh3tzVetPOw&_nc_ss=7d289&oh=00_Af9-P7C4LO9GlNM_QC8i3xpx64GIfhLoxYWoAujJrXHQqA&oe=6A33BBF3'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/680471557_1645905629995824_1057082232695816305_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=50ce42&_nc_ohc=7iMi1p00BdwQ7kNvwFN5d7L&_nc_oc=AdrOgDHz_8fJnm83_u_L393F2Qx1sl3B9h5yMQElPr_JXsh0zjiDMM0xpSlHlrD8lAObht2-tSjFZY-DnL5t8C4F&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=DIhz8GPY5Ersh3tzVetPOw&_nc_ss=7d289&oh=00_Af9-P7C4LO9GlNM_QC8i3xpx64GIfhLoxYWoAujJrXHQqA&oe=6A33BBF3
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/1184707430522490 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1184707430522490']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=32955). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='🪟 Windows 11 IoT Enterprise LTSC 2024: así debió ser siempre', duración=808, canal='acaele', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/591125358_1468133081598393_7017026618068421329_n.jpg?stp=dst-jpg_tt6&cstp=mx1152x2048&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=be8305&_nc_ohc=8dJGTpXAeeUQ7kNvwE3Tpre&_nc_oc=Adrbx8DAcELZLmsGGgSmoYlL7KP8Qiw-txYA7-Ria66ksVMEA7Mclt1dDAhVVikskxXLwQbWJYXVHa8LmGmdChec&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=R0PhbCEbH916WF4hDOeDnw&_nc_ss=7d289&oh=00_Af_-UJYIDnDP1Ze2MtaM7-ly9VgXF6pMQOS1K7lnTigplQ&oe=6A33B45F'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/591125358_1468133081598393_7017026618068421329_n.jpg?stp=dst-jpg_tt6&cstp=mx1152x2048&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=be8305&_nc_ohc=8dJGTpXAeeUQ7kNvwE3Tpre&_nc_oc=Adrbx8DAcELZLmsGGgSmoYlL7KP8Qiw-txYA7-Ria66ksVMEA7Mclt1dDAhVVikskxXLwQbWJYXVHa8LmGmdChec&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=R0PhbCEbH916WF4hDOeDnw&_nc_ss=7d289&oh=00_Af_-UJYIDnDP1Ze2MtaM7-ly9VgXF6pMQOS1K7lnTigplQ&oe=6A33B45F
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.facebook.com/reel/2077247849882536 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/2077247849882536']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=19703). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='28K views · 552 reactions | Repara el inicio de Windows 😳 Aprende a hacer la reparación de inicio en Windows para solucionar errores de arranque, pantalla negra y fallos del sistema fácilmente. Recupera tu PC sin perder archivos 💻⚡ #Windows #RepararPC #TrucosPC | Centro de Consejos Técnicos', duración=359, canal='Centro de Consejos Técnicos', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/684933431_1774411450631401_219500314529718227_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1080&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=be8305&_nc_ohc=ywMCzbHtLUYQ7kNvwEZez3v&_nc_oc=Adq4mU_NllPTuxZpf7-CEmHKi4jQlqc1naFG8hhJr6S6LHq92nrxLy_VgrsaRxOTs2evsVyRKUECXZiHmcYCY4IG&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=vp2kNboFmv29mEG1UndzUw&_nc_ss=7d289&oh=00_Af9NRjF687_rSMH7sAABlj_W9v28BxGAbSUBXqq1Zaux8w&oe=6A33C9C2'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/684933431_1774411450631401_219500314529718227_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1080&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=be8305&_nc_ohc=ywMCzbHtLUYQ7kNvwEZez3v&_nc_oc=Adq4mU_NllPTuxZpf7-CEmHKi4jQlqc1naFG8hhJr6S6LHq92nrxLy_VgrsaRxOTs2evsVyRKUECXZiHmcYCY4IG&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=vp2kNboFmv29mEG1UndzUw&_nc_ss=7d289&oh=00_Af9NRjF687_rSMH7sAABlj_W9v28BxGAbSUBXqq1Zaux8w&oe=6A33C9C2
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://open.spotify.com/episode/7AzRTmkTPD7BIOsrzhBqRd?si=Wdyz3YM7QIGfx6db2Ior-A | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://open.spotify.com/episode/7AzRTmkTPD7BIOsrzhBqRd?si=Wdyz3YM7QIGfx6db2Ior-A']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 1
+Error devuelto por yt-dlp:
+ERROR: [DRM] The requested site is known to use DRM protection. It will NOT be supported.
+       Please DO NOT open an issue, unless you have evidence that the video is not DRM protected
+
+start_fetch_metadata: URL=https://www.youtube.com/watch?v=erD5YLRXG5g | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.youtube.com/watch?v=erD5YLRXG5g']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=595614). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Pruebo WINDOWS TOMEX OS en PC VIEJA y ¡ME SORPRENDIÓ!', duración=2005, canal='Proto', miniatura='https://i.ytimg.com/vi/erD5YLRXG5g/maxresdefault.jpg'
+Descargando miniatura desde: https://i.ytimg.com/vi/erD5YLRXG5g/maxresdefault.jpg
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+start_fetch_metadata: URL=https://www.tiktok.com/@aguzh.kick/video/7608245170013883669?is_from_webapp=1&sender_device=pc | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.tiktok.com/@aguzh.kick/video/7608245170013883669?is_from_webapp=1&sender_device=pc']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 1
+Error devuelto por yt-dlp:
+ERROR: [TikTok] 7608245170013883669: Unable to extract universal data for rehydration; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+
+start_fetch_metadata: URL=https://www.tiktok.com/@aguzh.kick/video/7608245170013883669?is_from_webapp=1&sender_device=pc | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.tiktok.com/@aguzh.kick/video/7608245170013883669?is_from_webapp=1&sender_device=pc']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 1
+Error devuelto por yt-dlp:
+ERROR: [TikTok] 7608245170013883669: Unable to extract universal data for rehydration; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+
+start_fetch_metadata: URL=https://www.tiktok.com/@aguzh.kick/video/7608245170013883669?is_from_webapp=1 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.tiktok.com/@aguzh.kick/video/7608245170013883669?is_from_webapp=1']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25145). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='Tu Internet esta Bloqueado #DNS #WindowsTips #TechTok #InternetTips #...', duración=63, canal='aguzh.kick', miniatura='https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/owzDfUT6A6rOQFfEX9A2rIIMVAaoKm7Cfo87rB~tplv-tiktokx-origin.image?dr=14575&x-expires=1781568000&x-signature=LOf%2BtWMGGULsFQEw%2Fg54H6CMWkA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my'
+Descargando miniatura desde: https://p16-common-sign.tiktokcdn.com/tos-alisg-p-0037/owzDfUT6A6rOQFfEX9A2rIIMVAaoKm7Cfo87rB~tplv-tiktokx-origin.image?dr=14575&x-expires=1781568000&x-signature=LOf%2BtWMGGULsFQEw%2Fg54H6CMWkA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
+start_download: Calidad seleccionada='Mejor Calidad Disponible (Video + Audio)' | FFmpeg disponible=True
+
+--- APLICACIÓN INICIADA ---
+
+--- APLICACIÓN INICIADA ---
+
+--- APLICACIÓN INICIADA ---
+
+--- APLICACIÓN INICIADA ---
+
+--- APLICACIÓN INICIADA ---
+
+--- APLICACIÓN INICIADA ---
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.facebook.com/reel/1256092749785038 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 Yt-Dlp-GUI\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/1256092749785038']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=25632). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='10K views · 749 reactions | 💬 Te respondemos una pregunta de la comunidad Una respuesta rápida, clara y basada en experiencia real 🔧⚡ #serviciotecnico #electronica #tecnologia | Fernando Gutierrez', duración=33, canal='Fernando Gutierrez', miniatura='https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/720634553_1625938501824621_4126894977916868523_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=50ce42&_nc_ohc=1ot2t_g4Sr8Q7kNvwF99wMf&_nc_oc=Adpka6q9dGzFksKGcFwBQHc7bQq2MkMs35rsDYyYstpjqd5sFGI3CIfR6jDjstQoIT4qtw7Q39CEuAe2GBvADyK0&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=dhL15QNXmJ1xwA-z1kSrsA&_nc_ss=7d289&oh=00_Af9JZr5MvC0UDCkeSXxPX4vXIDRw-np_kt89H5KmGWzCZg&oe=6A34F953'
+Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-10/720634553_1625938501824621_4126894977916868523_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=50ce42&_nc_ohc=1ot2t_g4Sr8Q7kNvwF99wMf&_nc_oc=Adpka6q9dGzFksKGcFwBQHc7bQq2MkMs35rsDYyYstpjqd5sFGI3CIfR6jDjstQoIT4qtw7Q39CEuAe2GBvADyK0&_nc_zt=23&_nc_ht=scontent.feze8-1.fna&_nc_gid=dhL15QNXmJ1xwA-z1kSrsA&_nc_ss=7d289&oh=00_Af9JZr5MvC0UDCkeSXxPX4vXIDRw-np_kt89H5KmGWzCZg&oe=6A34F953
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
