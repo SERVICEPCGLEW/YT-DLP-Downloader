@@ -95,6 +95,8 @@ class YtDlpGUI(ctk.CTk):
                 geom = self.geometry()
                 if geom and geom != "1x1+0+0":
                     self.config["window_geometry"] = geom
+                if hasattr(self, 'console_window') and self.console_window.winfo_exists() and self.console_window.state() == 'normal':
+                    self.config["console_geometry"] = self.console_window.geometry()
             except:
                 pass
             with open(CONFIG_FILE, 'w', encoding='utf-8') as f:
@@ -250,8 +252,16 @@ class YtDlpGUI(ctk.CTk):
         self.console_checkbox = ctk.CTkCheckBox(console_header_frame, text="Mostrar consola de depuración", variable=self.show_console_var, command=self.toggle_console, font=ctk.CTkFont(size=11))
         self.console_checkbox.pack(side="left")
 
-        self.console_text = ctk.CTkTextbox(self.bottom_frame, height=50, font=ctk.CTkFont(family="Consolas", size=11), fg_color="#0F172A", text_color="#F8FAFC", state="disabled")
-        # No se ubica inicialmente (está colapsada)
+        # Ventana Flotante para la Consola
+        self.console_window = ctk.CTkToplevel(self)
+        self.console_window.title("Consola de Depuración")
+        self.console_window.geometry(self.config.get("console_geometry", "500x300"))
+        self.console_window.configure(fg_color="#000000")
+        self.console_window.protocol("WM_DELETE_WINDOW", self.on_console_close)
+        self.console_window.withdraw()
+
+        self.console_text = ctk.CTkTextbox(self.console_window, font=ctk.CTkFont(family="Consolas", size=11), fg_color="#0F172A", text_color="#F8FAFC", state="disabled")
+        self.console_text.pack(fill="both", expand=True, padx=5, pady=5)
 
         # Botones extra abajo
         btn_frame = ctk.CTkFrame(self.bottom_frame, fg_color="transparent")
@@ -364,11 +374,20 @@ class YtDlpGUI(ctk.CTk):
         except Exception:
             pass
 
+    def on_console_close(self):
+        self.config["console_geometry"] = self.console_window.geometry()
+        self.save_config()
+        self.show_console_var.set(False)
+        self.console_window.withdraw()
+
     def toggle_console(self):
         if self.show_console_var.get():
-            self.console_text.grid(row=4, column=0, padx=5, pady=(0, 10), sticky="nsew")
+            self.console_window.deiconify()
         else:
-            self.console_text.grid_forget()
+            if self.console_window.state() == "normal":
+                self.config["console_geometry"] = self.console_window.geometry()
+                self.save_config()
+            self.console_window.withdraw()
 
     def show_about(self):
         import webbrowser
