@@ -1,5 +1,5 @@
 ('G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 '
- 'Yt-Dlp-GUI\\build\\Yt-Dlp-GUI\\PYZ-00.pyz',
+ 'YT-DLP-Downloader\\build\\Yt-Dlp-GUI\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\Usuario\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),

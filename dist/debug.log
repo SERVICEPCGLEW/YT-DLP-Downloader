@@ -1115,3 +1115,22 @@ Descargando miniatura desde: https://scontent.feze8-1.fna.fbcdn.net/v/t51.71878-
 Respuesta de miniatura status=200
 Miniatura redimensionada correctamente.
 Llamando a on_fetch_success...
+
+--- APLICACIÓN INICIADA ---
+start_fetch_metadata: URL=https://www.facebook.com/reel/4564609133798078 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Error: yt-dlp.exe no existe en G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+start_fetch_metadata: URL=https://www.facebook.com/reel/4564609133798078 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+Error: yt-dlp.exe no existe en G:\Mi unidad\🌐 Proyectos Web y de Software\📥 Yt-Dlp-GUI\yt-dlp.exe
+start_fetch_metadata: URL=https://www.facebook.com/reel/4564609133798078 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 YT-DLP-Downloader\yt-dlp.exe
+Iniciando hilo _fetch_metadata_thread...
+Hilo _fetch_metadata_thread en ejecución...
+Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 YT-DLP-Downloader\\yt-dlp.exe', '-j', '--no-playlist', 'https://www.facebook.com/reel/4564609133798078']
+Subproceso Popen creado.
+Proceso finalizado. Código de retorno: 0
+Salida recibida (longitud=18550). Cargando JSON...
+JSON cargado con éxito.
+Metadatos: título='13K views · 829 reactions | Trump Publica esto "Nórdicos" y lo Borra | Fans Verdad Oculta', duración=2063, canal='Fans Verdad Oculta', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/724653585_974685738659947_1201511267903001679_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=50ce42&_nc_ohc=97vqT4OFuLQQ7kNvwFk6Y45&_nc_oc=Adrx5Dk5DFR3DV430L4br5iaQcMef8hKvFnOjmkyFf32989YNwsEipdg50EUrOkX2jt5_FI4llda6r8WQGkapYbF&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=xFMT6x1nspw0hqeh4Sru0Q&_nc_ss=7d289&oh=00_Af_vtYvuoCDWDQHKJrZuTqzT7UOaamG95gXGo0XIhxTxcQ&oe=6A353870'
+Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/724653585_974685738659947_1201511267903001679_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=50ce42&_nc_ohc=97vqT4OFuLQQ7kNvwFk6Y45&_nc_oc=Adrx5Dk5DFR3DV430L4br5iaQcMef8hKvFnOjmkyFf32989YNwsEipdg50EUrOkX2jt5_FI4llda6r8WQGkapYbF&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=xFMT6x1nspw0hqeh4Sru0Q&_nc_ss=7d289&oh=00_Af_vtYvuoCDWDQHKJrZuTqzT7UOaamG95gXGo0XIhxTxcQ&oe=6A353870
+Respuesta de miniatura status=200
+Miniatura redimensionada correctamente.
+Llamando a on_fetch_success...
