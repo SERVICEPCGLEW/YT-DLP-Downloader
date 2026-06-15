@@ -59,6 +59,7 @@ class YtDlpGUI(ctk.CTk):
 
         # Cargar configuración
         self.load_config()
+        self.geometry(self.config.get("window_geometry", "600x480"))
 
         # Variables de estado
         self.fetching = False
@@ -76,7 +77,8 @@ class YtDlpGUI(ctk.CTk):
 
         self.config = {
             "ytdlp_path": r"C:\Users\Usuario\Desktop\yt-dlp (La herramienta definitiva)\yt-dlp.exe",
-            "download_dir": default_dir
+            "download_dir": default_dir,
+            "window_geometry": "600x480"
         }
 
         if os.path.exists(CONFIG_FILE):
@@ -89,6 +91,12 @@ class YtDlpGUI(ctk.CTk):
 
     def save_config(self):
         try:
+            try:
+                geom = self.geometry()
+                if geom and geom != "1x1+0+0":
+                    self.config["window_geometry"] = geom
+            except:
+                pass
             with open(CONFIG_FILE, 'w', encoding='utf-8') as f:
                 json.dump(self.config, f, indent=4, ensure_ascii=False)
         except Exception as e:
@@ -297,6 +305,7 @@ class YtDlpGUI(ctk.CTk):
     def quit_app(self):
         if self.tray_icon:
             self.tray_icon.stop()
+        self.save_config()
         self.quit()
         sys.exit(0)
 
