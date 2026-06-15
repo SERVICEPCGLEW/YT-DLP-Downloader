@@ -18,9 +18,7 @@
 
 **YT-DLP GUI** es una aplicación diseñada para simplificar al máximo el uso de la potente herramienta de línea de comandos `yt-dlp`. Construida con **CustomTkinter**, ofrece una experiencia de usuario moderna, fluida y con un aspecto oscuro premium, permitiéndote descargar contenido multimedia de miles de sitios web sin tener que tocar la terminal.
 
-<!-- REEMPLAZA LA SIGUIENTE LÍNEA CON LA RUTA A TU IMAGEN DE CAPTURA DE PANTALLA -->
-> **[🖼️ INSERTA AQUÍ TU IMAGEN / CAPTURA DE PANTALLA]**
-> `![Captura de YT-DLP GUI](ruta/a/tu/imagen.png)`
+![Captura de YT-DLP GUI](screenshot.png)`
 
 ## ✨ Características Principales
 
