@@ -38,7 +38,7 @@ class YtDlpGUI(ctk.CTk):
 
         self.title("yt-dlp GUI")
         self.geometry("600x480")
-        self.minsize(300, 200)
+        self.minsize(450, 480)
         self.overrideredirect(True)
         self.is_pinned = False
         threading.Thread(target=self._run_tray_icon, daemon=True).start()
@@ -112,7 +112,7 @@ class YtDlpGUI(ctk.CTk):
         self.title_bar.bind("<ButtonPress-1>", self.start_move)
         self.title_bar.bind("<B1-Motion>", self.do_move)
         
-        self.title_label = ctk.CTkLabel(self.title_bar, text=" YT-DLP", font=ctk.CTkFont(size=11, weight="bold"), text_color="#555555")
+        self.title_label = ctk.CTkLabel(self.title_bar, text=" YT-DLP-Downloader", font=ctk.CTkFont(size=11, weight="bold"), text_color="#555555")
         self.title_label.pack(side="left", padx=5)
         self.title_label.bind("<ButtonPress-1>", self.start_move)
         self.title_label.bind("<B1-Motion>", self.do_move)
@@ -290,8 +290,8 @@ class YtDlpGUI(ctk.CTk):
     def do_resize(self, event):
         del_x = event.x_root - self.start_x
         del_y = event.y_root - self.start_y
-        new_w = max(300, self.start_w + del_x)
-        new_h = max(200, self.start_h + del_y)
+        new_w = max(450, self.start_w + del_x)
+        new_h = max(480, self.start_h + del_y)
         self.geometry(f"{new_w}x{new_h}")
 
     def toggle_pin(self):
