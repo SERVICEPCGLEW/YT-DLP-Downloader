@@ -38,7 +38,7 @@ class YtDlpGUI(ctk.CTk):
 
         self.title("yt-dlp GUI")
         self.geometry("600x480")
-        self.minsize(300, 200)
+        self.minsize(450, 520)
         self.overrideredirect(True)
         self.is_pinned = False
         threading.Thread(target=self._run_tray_icon, daemon=True).start()
@@ -220,7 +220,7 @@ class YtDlpGUI(ctk.CTk):
         dest_btn.grid(row=1, column=2, padx=(10, 0), pady=1)
 
         # Botón de Descarga
-        self.download_btn = ctk.CTkButton(self.video_details_frame, text="DESCARGAR VIDEO", font=ctk.CTkFont(size=11, weight="bold"), fg_color="#10B981", hover_color="#059669", height=30, command=self.start_download)
+        self.download_btn = ctk.CTkButton(self.video_details_frame, text="DESCARGAR VIDEO", font=ctk.CTkFont(size=11, weight="bold"), fg_color="#F97316", hover_color="#C2410C", height=30, command=self.start_download)
         self.download_btn.grid(row=3, column=0, columnspan=2, padx=5, pady=(10, 5), sticky="e")
 
         # --- Fila 4: Progreso, Estado y Consola ---
@@ -261,11 +261,11 @@ class YtDlpGUI(ctk.CTk):
         donate_btn.pack(side="left", padx=5)
 
         import webbrowser
-        self.link_label = ctk.CTkLabel(btn_frame, text="servicepc.web.pages.dev", text_color="#FFFFFF", font=ctk.CTkFont(size=11), cursor="hand2")
+        self.link_label = ctk.CTkLabel(btn_frame, text="servicepcglew.pages.dev", text_color="#FFFFFF", font=ctk.CTkFont(size=11), cursor="hand2")
         self.link_label.pack(side="left", expand=True)
         self.link_label.bind("<Enter>", lambda e: self.link_label.configure(text_color="#3B82F6"))
         self.link_label.bind("<Leave>", lambda e: self.link_label.configure(text_color="#FFFFFF"))
-        self.link_label.bind("<Button-1>", lambda e: webbrowser.open("https://servicepc.web.pages.dev"))
+        self.link_label.bind("<Button-1>", lambda e: webbrowser.open("https://servicepcglew.pages.dev"))
 
         about_btn = ctk.CTkButton(btn_frame, text="Acerca de", width=80, height=24, corner_radius=4, fg_color="#64748B", hover_color="#475569", command=self.show_about)
         about_btn.pack(side="right", padx=5)
@@ -297,8 +297,8 @@ class YtDlpGUI(ctk.CTk):
     def do_resize(self, event):
         del_x = event.x_root - self.start_x
         del_y = event.y_root - self.start_y
-        new_w = max(300, self.start_w + del_x)
-        new_h = max(200, self.start_h + del_y)
+        new_w = max(450, self.start_w + del_x)
+        new_h = max(520, self.start_h + del_y)
         self.geometry(f"{new_w}x{new_h}")
 
     def toggle_pin(self):
@@ -367,8 +367,12 @@ class YtDlpGUI(ctk.CTk):
     def toggle_console(self):
         if self.show_console_var.get():
             self.console_text.grid(row=4, column=0, padx=5, pady=(0, 10), sticky="nsew")
+            new_h = self.winfo_height() + 90
+            self.geometry(f"{self.winfo_width()}x{new_h}")
         else:
             self.console_text.grid_forget()
+            new_h = max(520, self.winfo_height() - 90)
+            self.geometry(f"{self.winfo_width()}x{new_h}")
 
     def show_about(self):
         import webbrowser
