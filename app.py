@@ -197,7 +197,7 @@ class YtDlpGUI(ctk.CTk):
             "480p (SD)",
             "Solo Audio (MP3 - Alta Calidad)",
             "Solo Audio (M4A)"
-        ]
+        ], width=350)
         self.quality_combo.grid(row=0, column=1, padx=(0, 5), pady=1, sticky="ew")
 
         # Selector de Carpeta Destino
