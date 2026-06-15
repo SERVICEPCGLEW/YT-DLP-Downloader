@@ -210,7 +210,7 @@ class YtDlpGUI(ctk.CTk):
         dest_lbl = ctk.CTkLabel(options_panel, text="Destino:", font=ctk.CTkFont(size=10, weight="bold"))
         dest_lbl.grid(row=1, column=0, padx=(0, 10), pady=1, sticky="w")
 
-        self.dest_entry = ctk.CTkEntry(height=24, font=ctk.CTkFont(size=10), options_panel, width=200)
+        self.dest_entry = ctk.CTkEntry(options_panel, height=24, font=ctk.CTkFont(size=10), width=200)
         self.dest_entry.insert(0, self.config["download_dir"])
         self.dest_entry.grid(row=1, column=1, padx=0, pady=1, sticky="w")
 
