@@ -98,72 +98,72 @@ class YtDlpGUI(ctk.CTk):
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(4, weight=1)
 
-        # --- Custom Title Bar ---
-        self.title_bar = ctk.CTkFrame(self, height=30, corner_radius=0, fg_color="#0A0A0A")
-        self.title_bar.grid(row=0, column=0, sticky="ew")
+        # --- Invisible Drag Area & Window Controls ---
+        self.title_bar = ctk.CTkFrame(self, height=24, corner_radius=0, fg_color="transparent")
+        self.title_bar.grid(row=0, column=0, sticky="ew", pady=(2, 0))
         self.title_bar.bind("<ButtonPress-1>", self.start_move)
         self.title_bar.bind("<B1-Motion>", self.do_move)
         
-        self.title_label = ctk.CTkLabel(self.title_bar, text=" YT-DLP GUI", font=ctk.CTkFont(size=12, weight="bold"))
-        self.title_label.pack(side="left", padx=10)
+        self.title_label = ctk.CTkLabel(self.title_bar, text=" YT-DLP", font=ctk.CTkFont(size=10, weight="bold"), text_color="#555555")
+        self.title_label.pack(side="left", padx=5)
         self.title_label.bind("<ButtonPress-1>", self.start_move)
         self.title_label.bind("<B1-Motion>", self.do_move)
 
-        close_btn = ctk.CTkButton(self.title_bar, text="✕", width=30, height=24, fg_color="transparent", hover_color="#EF4444", command=self.quit_app)
+        close_btn = ctk.CTkButton(self.title_bar, text="✕", width=24, height=24, font=ctk.CTkFont(size=10), fg_color="transparent", hover_color="#EF4444", command=self.quit_app)
         close_btn.pack(side="right", padx=2)
 
-        min_btn = ctk.CTkButton(self.title_bar, text="🗕", width=30, height=24, fg_color="transparent", hover_color="#333333", command=self.minimize_to_tray)
+        min_btn = ctk.CTkButton(self.title_bar, text="🗕", width=24, height=24, font=ctk.CTkFont(size=10), fg_color="transparent", hover_color="#333333", command=self.minimize_to_tray)
         min_btn.pack(side="right", padx=2)
 
-        self.pin_btn = ctk.CTkButton(self.title_bar, text="📌", width=30, height=24, fg_color="transparent", hover_color="#333333", command=self.toggle_pin)
+        self.pin_btn = ctk.CTkButton(self.title_bar, text="📌", width=24, height=24, font=ctk.CTkFont(size=10), text_color="#EF4444", fg_color="transparent", hover_color="#333333", command=self.toggle_pin)
         self.pin_btn.pack(side="right", padx=2)
 
         # --- Fila 1: Configuración de yt-dlp.exe ---
         ytdlp_frame = ctk.CTkFrame(self)
-        ytdlp_frame.grid(row=1, column=0, padx=10, pady=5, sticky="ew")
+        ytdlp_frame.grid(row=1, column=0, padx=2, pady=1, sticky="ew")
         ytdlp_frame.grid_columnconfigure(1, weight=1)
 
-        ytdlp_lbl = ctk.CTkLabel(ytdlp_frame, text="Ruta yt-dlp.exe:", font=ctk.CTkFont(weight="bold"))
-        ytdlp_lbl.grid(row=0, column=0, padx=(15, 10), pady=10, sticky="w")
+        ytdlp_lbl = ctk.CTkLabel(ytdlp_frame, text="Ruta yt-dlp.exe:", font=ctk.CTkFont(size=10, weight="bold"))
+        ytdlp_lbl.grid(row=0, column=0, padx=(5, 5), pady=2, sticky="w")
 
-        self.ytdlp_entry = ctk.CTkEntry(ytdlp_frame)
+        self.ytdlp_entry = ctk.CTkEntry(height=24, font=ctk.CTkFont(size=10), ytdlp_frame)
         self.ytdlp_entry.insert(0, self.config["ytdlp_path"])
-        self.ytdlp_entry.grid(row=0, column=1, padx=5, pady=10, sticky="ew")
+        self.ytdlp_entry.grid(row=0, column=1, padx=5, pady=2, sticky="ew")
 
-        ytdlp_btn = ctk.CTkButton(ytdlp_frame, text="Buscar...", width=80, command=self.browse_ytdlp)
-        ytdlp_btn.grid(row=0, column=2, padx=(5, 15), pady=10)
+        ytdlp_btn = ctk.CTkButton(ytdlp_frame, text="Buscar...", width=50, height=24, height=24, command=self.browse_ytdlp)
+        ytdlp_btn.grid(row=0, column=2, padx=(5, 15), pady=2)
 
         # --- Fila 2: Entrada de Enlace (URL) ---
         url_frame = ctk.CTkFrame(self)
-        url_frame.grid(row=2, column=0, padx=10, pady=5, sticky="ew")
+        url_frame.grid(row=2, column=0, padx=2, pady=1, sticky="ew")
         url_frame.grid_columnconfigure(1, weight=1)
 
-        url_lbl = ctk.CTkLabel(url_frame, text="Enlace de Video:", font=ctk.CTkFont(weight="bold"))
-        url_lbl.grid(row=0, column=0, padx=(15, 10), pady=5, sticky="w")
+        url_lbl = ctk.CTkLabel(url_frame, text="Enlace de Video:", font=ctk.CTkFont(size=10, weight="bold"))
+        url_lbl.grid(row=0, column=0, padx=(5, 5), pady=1, sticky="w")
 
-        self.url_entry = ctk.CTkEntry(url_frame, placeholder_text="Pega el link del video aquí (YouTube, Vimeo, etc.)...")
-        self.url_entry.grid(row=0, column=1, padx=5, pady=5, sticky="ew")
+        self.url_entry = ctk.CTkEntry(height=24, font=ctk.CTkFont(size=10), url_frame, placeholder_text="Pega el link del video aquí (YouTube, Vimeo, etc.)...")
+        self.url_entry.grid(row=0, column=1, padx=5, pady=1, sticky="ew")
 
-        paste_btn = ctk.CTkButton(url_frame, text="Pegar", width=60, fg_color="#4B5563", hover_color="#374151", command=self.paste_url)
-        paste_btn.grid(row=0, column=2, padx=5, pady=5)
+        paste_btn = ctk.CTkButton(url_frame, text="Pegar", width=50, height=24, fg_color="#4B5563", hover_color="#374151", command=self.paste_url)
+        paste_btn.grid(row=0, column=2, padx=5, pady=1)
 
-        self.fetch_btn = ctk.CTkButton(url_frame, text="Obtener Info", width=100, fg_color="#2563EB", hover_color="#1D4ED8", command=self.start_fetch_metadata)
-        self.fetch_btn.grid(row=0, column=3, padx=(5, 15), pady=5)
+        self.fetch_btn = ctk.CTkButton(url_frame, text="Obtener Info", width=80, height=24, fg_color="#2563EB", hover_color="#1D4ED8", command=self.start_fetch_metadata)
+        self.fetch_btn.grid(row=0, column=3, padx=(5, 15), pady=1)
 
         # --- Fila 3: Tarjeta de Información del Video & Opciones ---
         self.main_info_frame = ctk.CTkFrame(self)
-        self.main_info_frame.grid(row=3, column=0, padx=10, pady=5, sticky="nsew")
+        self.main_info_frame.grid(row=3, column=0, padx=2, pady=1, sticky="nsew")
         self.main_info_frame.grid_columnconfigure(0, weight=1)
         self.main_info_frame.grid_rowconfigure(0, weight=1)
 
         # Sub-frame para cuando NO hay video cargado (Placeholder)
         self.placeholder_frame = ctk.CTkFrame(self.main_info_frame, fg_color="transparent")
-        self.placeholder_frame.grid(row=0, column=0, padx=10, pady=30, sticky="nsew")
+        self.placeholder_frame.grid(row=0, column=0, padx=2, pady=30, sticky="nsew")
         
         self.placeholder_label = ctk.CTkLabel(
             self.placeholder_frame, 
             text="Introduce un enlace de video y haz clic en 'Obtener Info'\npara cargar las opciones de descarga.",
-            font=ctk.CTkFont(size=14),
+            font=ctk.CTkFont(size=10),
             text_color="gray"
         )
         self.placeholder_label.pack(expand=True)
@@ -176,27 +176,27 @@ class YtDlpGUI(ctk.CTk):
         self.video_details_frame.grid_columnconfigure(1, weight=1)
 
         # Miniatura
-        self.thumbnail_label = ctk.CTkLabel(self.video_details_frame, text="[Sin Miniatura]", width=160, height=90, fg_color="#1F2937", corner_radius=8)
-        self.thumbnail_label.grid(row=0, column=0, rowspan=4, padx=(15, 20), pady=5, sticky="nw")
+        self.thumbnail_label = ctk.CTkLabel(self.video_details_frame, text="[Sin Miniatura]", width=120, height=70, fg_color="#1F2937", corner_radius=8)
+        self.thumbnail_label.grid(row=0, column=0, rowspan=4, padx=(5, 5), pady=1, sticky="nw")
 
         # Metadatos del video (Editable)
-        self.vid_title_entry = ctk.CTkTextbox(self.video_details_frame, font=ctk.CTkFont(size=14, weight="bold"), width=300, height=150, wrap="word")
+        self.vid_title_entry = ctk.CTkTextbox(self.video_details_frame, font=ctk.CTkFont(size=11, weight="bold"), width=300, height=80, wrap="word")
         self.vid_title_entry.insert("1.0", "Título del Video")
-        self.vid_title_entry.grid(row=0, column=1, padx=(0, 15), pady=2, sticky="w")
+        self.vid_title_entry.grid(row=0, column=1, padx=(0, 5), pady=2, sticky="w")
 
-        self.vid_duration_lbl = ctk.CTkLabel(self.video_details_frame, text="Duración: --:-- | Canal: --", font=ctk.CTkFont(size=12), text_color="gray")
-        self.vid_duration_lbl.grid(row=1, column=1, padx=(0, 15), pady=2, sticky="w")
+        self.vid_duration_lbl = ctk.CTkLabel(self.video_details_frame, text="Duración: --:-- | Canal: --", font=ctk.CTkFont(size=10), text_color="gray")
+        self.vid_duration_lbl.grid(row=1, column=1, padx=(0, 5), pady=2, sticky="w")
 
         # Fila de opciones de descarga
         options_panel = ctk.CTkFrame(self.video_details_frame, fg_color="transparent")
-        options_panel.grid(row=2, column=1, padx=(0, 15), pady=10, sticky="ew")
+        options_panel.grid(row=2, column=1, padx=(0, 5), pady=2, sticky="ew")
         options_panel.grid_columnconfigure(1, weight=1)
 
         # Selector de Calidad
-        qual_lbl = ctk.CTkLabel(options_panel, text="Calidad:", font=ctk.CTkFont(weight="bold"))
-        qual_lbl.grid(row=0, column=0, padx=(0, 10), pady=5, sticky="w")
+        qual_lbl = ctk.CTkLabel(options_panel, text="Calidad:", font=ctk.CTkFont(size=10, weight="bold"))
+        qual_lbl.grid(row=0, column=0, padx=(0, 10), pady=1, sticky="w")
 
-        self.quality_combo = ctk.CTkComboBox(options_panel, values=[
+        self.quality_combo = ctk.CTkComboBox(height=24, font=ctk.CTkFont(size=10), dropdown_font=ctk.CTkFont(size=10), options_panel, values=[
             "Mejor Calidad Disponible (Video + Audio)",
             "1080p (Full HD)",
             "720p (HD)",
@@ -204,45 +204,45 @@ class YtDlpGUI(ctk.CTk):
             "Solo Audio (MP3 - Alta Calidad)",
             "Solo Audio (M4A)"
         ], width=200)
-        self.quality_combo.grid(row=0, column=1, padx=0, pady=5, sticky="w")
+        self.quality_combo.grid(row=0, column=1, padx=0, pady=1, sticky="w")
 
         # Selector de Carpeta Destino
-        dest_lbl = ctk.CTkLabel(options_panel, text="Destino:", font=ctk.CTkFont(weight="bold"))
-        dest_lbl.grid(row=1, column=0, padx=(0, 10), pady=5, sticky="w")
+        dest_lbl = ctk.CTkLabel(options_panel, text="Destino:", font=ctk.CTkFont(size=10, weight="bold"))
+        dest_lbl.grid(row=1, column=0, padx=(0, 10), pady=1, sticky="w")
 
-        self.dest_entry = ctk.CTkEntry(options_panel, width=200)
+        self.dest_entry = ctk.CTkEntry(height=24, font=ctk.CTkFont(size=10), options_panel, width=200)
         self.dest_entry.insert(0, self.config["download_dir"])
-        self.dest_entry.grid(row=1, column=1, padx=0, pady=5, sticky="w")
+        self.dest_entry.grid(row=1, column=1, padx=0, pady=1, sticky="w")
 
         dest_btn = ctk.CTkButton(options_panel, text="Elegir...", width=70, command=self.browse_dest)
-        dest_btn.grid(row=1, column=2, padx=(10, 0), pady=5)
+        dest_btn.grid(row=1, column=2, padx=(10, 0), pady=1)
 
         # Botón de Descarga
-        self.download_btn = ctk.CTkButton(self.video_details_frame, text="DESCARGAR VIDEO", font=ctk.CTkFont(weight="bold"), fg_color="#10B981", hover_color="#059669", height=35, command=self.start_download)
-        self.download_btn.grid(row=3, column=1, padx=(0, 15), pady=(5, 15), sticky="w")
+        self.download_btn = ctk.CTkButton(self.video_details_frame, text="DESCARGAR VIDEO", font=ctk.CTkFont(size=10, weight="bold"), fg_color="#10B981", hover_color="#059669", height=35, command=self.start_download)
+        self.download_btn.grid(row=3, column=1, padx=(0, 5), pady=(5, 15), sticky="w")
 
         # --- Fila 4: Progreso, Estado y Consola ---
         self.bottom_frame = ctk.CTkFrame(self)
-        self.bottom_frame.grid(row=4, column=0, padx=10, pady=(5, 15), sticky="nsew")
+        self.bottom_frame.grid(row=4, column=0, padx=2, pady=(5, 15), sticky="nsew")
         self.bottom_frame.grid_columnconfigure(0, weight=1)
         self.bottom_frame.grid_rowconfigure(3, weight=1)  # Fila del Log de consola
 
         # Estado del descarga
-        self.status_lbl = ctk.CTkLabel(self.bottom_frame, text="Estado: Listo", font=ctk.CTkFont(weight="bold"))
-        self.status_lbl.grid(row=0, column=0, padx=15, pady=(10, 2), sticky="w")
+        self.status_lbl = ctk.CTkLabel(self.bottom_frame, text="Estado: Listo", font=ctk.CTkFont(size=10, weight="bold"))
+        self.status_lbl.grid(row=0, column=0, padx=5, pady=(10, 2), sticky="w")
 
         # Barra de progreso
-        self.progress_bar = ctk.CTkProgressBar(self.bottom_frame)
+        self.progress_bar = ctk.CTkProgressBar(self.bottom_frame, height=10)
         self.progress_bar.set(0.0)
-        self.progress_bar.grid(row=1, column=0, padx=15, pady=5, sticky="ew")
+        self.progress_bar.grid(row=1, column=0, padx=5, pady=1, sticky="ew")
 
         # Estadísticas (Velocidad, ETA, Porcentaje)
-        self.stats_lbl = ctk.CTkLabel(self.bottom_frame, text="Progreso: 0% | Velocidad: -- | ETA: --", font=ctk.CTkFont(size=12), text_color="gray")
-        self.stats_lbl.grid(row=2, column=0, padx=15, pady=(2, 10), sticky="w")
+        self.stats_lbl = ctk.CTkLabel(self.bottom_frame, text="Progreso: 0% | Velocidad: -- | ETA: --", font=ctk.CTkFont(size=10), text_color="gray")
+        self.stats_lbl.grid(row=2, column=0, padx=5, pady=(2, 10), sticky="w")
 
         # Consola Colapsable
         console_header_frame = ctk.CTkFrame(self.bottom_frame, fg_color="transparent")
-        console_header_frame.grid(row=3, column=0, padx=15, pady=(0, 5), sticky="ew")
+        console_header_frame.grid(row=3, column=0, padx=5, pady=(0, 5), sticky="ew")
         
         self.show_console_var = tk.BooleanVar(value=False)
         self.console_checkbox = ctk.CTkCheckBox(console_header_frame, text="Mostrar consola de depuración", variable=self.show_console_var, command=self.toggle_console, font=ctk.CTkFont(size=11))
@@ -258,7 +258,7 @@ class YtDlpGUI(ctk.CTk):
         donate_btn = ctk.CTkButton(btn_frame, text="💖 Donar a Matecito", width=120, fg_color="#F97316", hover_color="#EA580C", command=self.show_donate)
         donate_btn.pack(side="right", padx=5)
 
-        about_btn = ctk.CTkButton(btn_frame, text="ℹ️ Acerca de", width=100, fg_color="#64748B", hover_color="#475569", command=self.show_about)
+        about_btn = ctk.CTkButton(btn_frame, text="ℹ️ Acerca de", width=80, height=24, fg_color="#64748B", hover_color="#475569", command=self.show_about)
         about_btn.pack(side="right", padx=5)
 
         # SizeGrip para redimensionar
@@ -295,7 +295,7 @@ class YtDlpGUI(ctk.CTk):
     def toggle_pin(self):
         self.is_pinned = not self.is_pinned
         self.attributes("-topmost", self.is_pinned)
-        self.pin_btn.configure(fg_color="#3B82F6" if self.is_pinned else "transparent")
+        self.pin_btn.configure(text_color="#FFFFFF" if self.is_pinned else "#EF4444")
 
     def minimize_to_tray(self):
         self.withdraw()
@@ -356,7 +356,7 @@ class YtDlpGUI(ctk.CTk):
 
     def toggle_console(self):
         if self.show_console_var.get():
-            self.console_text.grid(row=4, column=0, padx=15, pady=(0, 10), sticky="nsew")
+            self.console_text.grid(row=4, column=0, padx=5, pady=(0, 10), sticky="nsew")
         else:
             self.console_text.grid_forget()
 
@@ -371,11 +371,11 @@ class YtDlpGUI(ctk.CTk):
         about_window.attributes("-topmost", True)
         about_window.resizable(False, False)
         
-        info_label = ctk.CTkLabel(about_window, text="YT-DLP GUI\nUna interfaz gráfica moderna para yt-dlp.\nDesarrollado con ♥ por servicepcglew.", font=ctk.CTkFont(size=14))
-        info_label.pack(pady=10)
+        info_label = ctk.CTkLabel(about_window, text="YT-DLP GUI\nUna interfaz gráfica moderna para yt-dlp.\nDesarrollado con ♥ por servicepcglew.", font=ctk.CTkFont(size=10))
+        info_label.pack(pady=2)
         
         links_frame = ctk.CTkFrame(about_window, fg_color="transparent")
-        links_frame.pack(pady=10)
+        links_frame.pack(pady=2)
         
         ctk.CTkButton(links_frame, text="GitHub", width=90, fg_color="#333333", hover_color="#555555", command=lambda: open_link("https://github.com/servicepcglew")).grid(row=0, column=0, padx=5)
         ctk.CTkButton(links_frame, text="YouTube", width=90, fg_color="#EF4444", hover_color="#DC2626", command=lambda: open_link("https://youtube.com/@servicepcglew")).grid(row=0, column=1, padx=5)
@@ -419,8 +419,8 @@ class YtDlpGUI(ctk.CTk):
         self.placeholder_frame.grid_forget()
         
         # Label temporal de carga
-        self.loading_lbl = ctk.CTkLabel(self.main_info_frame, text="Cargando metadatos y miniatura...", font=ctk.CTkFont(size=14))
-        self.loading_lbl.grid(row=0, column=0, padx=10, pady=30, sticky="nsew")
+        self.loading_lbl = ctk.CTkLabel(self.main_info_frame, text="Cargando metadatos y miniatura...", font=ctk.CTkFont(size=10))
+        self.loading_lbl.grid(row=0, column=0, padx=2, pady=30, sticky="nsew")
 
         # Limpiar log anterior
         self.console_text.configure(state="normal")
@@ -537,7 +537,7 @@ class YtDlpGUI(ctk.CTk):
         self.vid_duration_lbl.configure(text=f"Duración: {duration} | Canal: {uploader}")
         
         # Mostrar panel de video
-        self.video_details_frame.grid(row=0, column=0, padx=15, pady=5, sticky="nsew")
+        self.video_details_frame.grid(row=0, column=0, padx=5, pady=1, sticky="nsew")
 
     def on_fetch_error(self, err_msg):
         self.fetching = False
@@ -547,7 +547,7 @@ class YtDlpGUI(ctk.CTk):
         if hasattr(self, 'loading_lbl'):
             self.loading_lbl.grid_forget()
             
-        self.placeholder_frame.grid(row=0, column=0, padx=10, pady=30, sticky="nsew")
+        self.placeholder_frame.grid(row=0, column=0, padx=2, pady=30, sticky="nsew")
         messagebox.showerror("Error", err_msg)
 
 
