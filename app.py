@@ -39,6 +39,18 @@ class YtDlpGUI(ctk.CTk):
         self.geometry("700x620")
         self.minsize(650, 580)
 
+        # Limpiar log anterior para no dejar historial
+        try:
+            log_path = "debug.log"
+            if getattr(sys, 'frozen', False):
+                log_path = os.path.join(os.path.dirname(sys.executable), "debug.log")
+            else:
+                log_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "debug.log")
+            if os.path.exists(log_path):
+                os.remove(log_path)
+        except:
+            pass
+
         log_debug("\n--- APLICACIÓN INICIADA ---")
 
         # Cargar configuración
@@ -350,8 +362,8 @@ class YtDlpGUI(ctk.CTk):
         try:
             self.log_to_console(f"Ejecutando yt-dlp para obtener metadatos de: {url}")
             
-            # Comando yt-dlp para obtener info en formato JSON
-            cmd = [ytdlp_path, "-j", "--no-playlist", url]
+            # Comando yt-dlp para obtener info en formato JSON sin caché
+            cmd = [ytdlp_path, "--no-cache-dir", "-j", "--no-playlist", url]
             log_debug(f"Ejecutando comando: {cmd}")
             
             process = subprocess.Popen(
@@ -574,6 +586,7 @@ class YtDlpGUI(ctk.CTk):
         output_template = os.path.join(download_dir, f"{safe_title}.%(ext)s")
         cmd = [
             ytdlp_path,
+            "--no-cache-dir",
             *format_args,
             "--no-playlist",
             "--newline",
