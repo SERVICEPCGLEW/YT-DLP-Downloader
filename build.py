@@ -20,7 +20,7 @@ def main():
         "--onefile",
         "--clean",
         "--noconfirm",
-        "--collect-all", "customtkinter",
+        "--collect-all", "customtkinter", "--hidden-import", "pystray", "--hidden-import", "PIL",
         "--name=Yt-Dlp-GUI",
         "--icon=yt-dlp.exe",
         "app.py"
