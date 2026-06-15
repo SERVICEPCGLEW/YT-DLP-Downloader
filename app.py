@@ -130,7 +130,7 @@ class YtDlpGUI(ctk.CTk):
         self.ytdlp_entry.insert(0, self.config["ytdlp_path"])
         self.ytdlp_entry.grid(row=0, column=1, padx=5, pady=2, sticky="ew")
 
-        ytdlp_btn = ctk.CTkButton(ytdlp_frame, text="Buscar...", width=50, height=24, height=24, command=self.browse_ytdlp)
+        ytdlp_btn = ctk.CTkButton(ytdlp_frame, text="Buscar...", width=50, height=24, command=self.browse_ytdlp)
         ytdlp_btn.grid(row=0, column=2, padx=(5, 15), pady=2)
 
         # --- Fila 2: Entrada de Enlace (URL) ---
