@@ -38,7 +38,7 @@ class YtDlpGUI(ctk.CTk):
 
         self.title("yt-dlp GUI")
         self.geometry("600x480")
-        self.minsize(450, 480)
+        self.minsize(300, 200)
         self.overrideredirect(True)
         self.is_pinned = False
         threading.Thread(target=self._run_tray_icon, daemon=True).start()
@@ -260,12 +260,19 @@ class YtDlpGUI(ctk.CTk):
         donate_btn = ctk.CTkButton(btn_frame, text="🧉", width=30, height=30, fg_color="transparent", text_color="#F97316", font=ctk.CTkFont(size=20), hover_color="#1A1A1A", command=self.show_donate)
         donate_btn.pack(side="left", padx=5)
 
+        import webbrowser
+        self.link_label = ctk.CTkLabel(btn_frame, text="servicepc.web.pages.dev", text_color="#FFFFFF", font=ctk.CTkFont(size=11), cursor="hand2")
+        self.link_label.pack(side="left", expand=True)
+        self.link_label.bind("<Enter>", lambda e: self.link_label.configure(text_color="#3B82F6"))
+        self.link_label.bind("<Leave>", lambda e: self.link_label.configure(text_color="#FFFFFF"))
+        self.link_label.bind("<Button-1>", lambda e: webbrowser.open("https://servicepc.web.pages.dev"))
+
         about_btn = ctk.CTkButton(btn_frame, text="Acerca de", width=80, height=24, corner_radius=4, fg_color="#64748B", hover_color="#475569", command=self.show_about)
         about_btn.pack(side="right", padx=5)
 
-        # SizeGrip para redimensionar
-        self.grip = ctk.CTkFrame(self.bottom_frame, width=12, height=12, corner_radius=0, fg_color="#444444", cursor="size_nw_se")
-        self.grip.grid(row=6, column=0, sticky="se")
+        # SizeGrip para redimensionar (Usa place en la ventana principal para que NUNCA desaparezca)
+        self.grip = ctk.CTkFrame(self, width=12, height=12, corner_radius=0, fg_color="#444444", cursor="size_nw_se")
+        self.grip.place(relx=1.0, rely=1.0, anchor="se")
         self.grip.bind("<ButtonPress-1>", self.start_resize)
         self.grip.bind("<B1-Motion>", self.do_resize)
 
@@ -290,8 +297,8 @@ class YtDlpGUI(ctk.CTk):
     def do_resize(self, event):
         del_x = event.x_root - self.start_x
         del_y = event.y_root - self.start_y
-        new_w = max(450, self.start_w + del_x)
-        new_h = max(480, self.start_h + del_y)
+        new_w = max(300, self.start_w + del_x)
+        new_h = max(200, self.start_h + del_y)
         self.geometry(f"{new_w}x{new_h}")
 
     def toggle_pin(self):
