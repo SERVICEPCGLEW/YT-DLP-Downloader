@@ -126,7 +126,7 @@ class YtDlpGUI(ctk.CTk):
         ytdlp_lbl = ctk.CTkLabel(ytdlp_frame, text="Ruta yt-dlp.exe:", font=ctk.CTkFont(size=10, weight="bold"))
         ytdlp_lbl.grid(row=0, column=0, padx=(5, 5), pady=2, sticky="w")
 
-        self.ytdlp_entry = ctk.CTkEntry(height=24, font=ctk.CTkFont(size=10), ytdlp_frame)
+        self.ytdlp_entry = ctk.CTkEntry(ytdlp_frame, height=24, font=ctk.CTkFont(size=10))
         self.ytdlp_entry.insert(0, self.config["ytdlp_path"])
         self.ytdlp_entry.grid(row=0, column=1, padx=5, pady=2, sticky="ew")
 
@@ -141,7 +141,7 @@ class YtDlpGUI(ctk.CTk):
         url_lbl = ctk.CTkLabel(url_frame, text="Enlace de Video:", font=ctk.CTkFont(size=10, weight="bold"))
         url_lbl.grid(row=0, column=0, padx=(5, 5), pady=1, sticky="w")
 
-        self.url_entry = ctk.CTkEntry(height=24, font=ctk.CTkFont(size=10), url_frame, placeholder_text="Pega el link del video aquí (YouTube, Vimeo, etc.)...")
+        self.url_entry = ctk.CTkEntry(url_frame, height=24, font=ctk.CTkFont(size=10), placeholder_text="Pega el link del video aquí (YouTube, Vimeo, etc.)...")
         self.url_entry.grid(row=0, column=1, padx=5, pady=1, sticky="ew")
 
         paste_btn = ctk.CTkButton(url_frame, text="Pegar", width=50, height=24, fg_color="#4B5563", hover_color="#374151", command=self.paste_url)
@@ -196,7 +196,7 @@ class YtDlpGUI(ctk.CTk):
         qual_lbl = ctk.CTkLabel(options_panel, text="Calidad:", font=ctk.CTkFont(size=10, weight="bold"))
         qual_lbl.grid(row=0, column=0, padx=(0, 10), pady=1, sticky="w")
 
-        self.quality_combo = ctk.CTkComboBox(height=24, font=ctk.CTkFont(size=10), dropdown_font=ctk.CTkFont(size=10), options_panel, values=[
+        self.quality_combo = ctk.CTkComboBox(options_panel, height=24, font=ctk.CTkFont(size=10), dropdown_font=ctk.CTkFont(size=10), values=[
             "Mejor Calidad Disponible (Video + Audio)",
             "1080p (Full HD)",
             "720p (HD)",
