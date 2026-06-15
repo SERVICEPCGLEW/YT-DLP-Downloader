@@ -171,7 +171,7 @@ class YtDlpGUI(ctk.CTk):
 
         # Miniatura
         self.thumbnail_label = ctk.CTkLabel(self.video_details_frame, text="[Sin Miniatura]", width=120, height=70, fg_color="#1F2937", corner_radius=8)
-        self.thumbnail_label.grid(row=0, column=0, rowspan=4, padx=(5, 5), pady=1, sticky="nw")
+        self.thumbnail_label.grid(row=0, column=0, rowspan=2, padx=(5, 5), pady=1, sticky="nw")
 
         # Metadatos del video (Editable)
         self.vid_title_entry = ctk.CTkTextbox(self.video_details_frame, font=ctk.CTkFont(size=11, weight="bold"), width=300, height=80, wrap="word")
@@ -181,9 +181,9 @@ class YtDlpGUI(ctk.CTk):
         self.vid_duration_lbl = ctk.CTkLabel(self.video_details_frame, text="Duración: --:-- | Canal: --", font=ctk.CTkFont(size=11), text_color="gray")
         self.vid_duration_lbl.grid(row=1, column=1, padx=(0, 5), pady=2, sticky="w")
 
-        # Fila de opciones de descarga
+        # Fila de opciones de descarga (abajo de todo, span=2)
         options_panel = ctk.CTkFrame(self.video_details_frame, fg_color="transparent")
-        options_panel.grid(row=2, column=1, padx=(0, 5), pady=2, sticky="ew")
+        options_panel.grid(row=2, column=0, columnspan=2, padx=5, pady=(10, 2), sticky="ew")
         options_panel.grid_columnconfigure(1, weight=1)
 
         # Selector de Calidad
@@ -197,23 +197,23 @@ class YtDlpGUI(ctk.CTk):
             "480p (SD)",
             "Solo Audio (MP3 - Alta Calidad)",
             "Solo Audio (M4A)"
-        ], width=200)
-        self.quality_combo.grid(row=0, column=1, padx=0, pady=1, sticky="w")
+        ]
+        self.quality_combo.grid(row=0, column=1, padx=(0, 5), pady=1, sticky="ew")
 
         # Selector de Carpeta Destino
         dest_lbl = ctk.CTkLabel(options_panel, text="Destino:", font=ctk.CTkFont(size=11, weight="bold"))
         dest_lbl.grid(row=1, column=0, padx=(0, 10), pady=1, sticky="w")
 
-        self.dest_entry = ctk.CTkEntry(options_panel, height=24, font=ctk.CTkFont(size=11), width=200)
+        self.dest_entry = ctk.CTkEntry(options_panel, height=24, font=ctk.CTkFont(size=11))
         self.dest_entry.insert(0, self.config["download_dir"])
-        self.dest_entry.grid(row=1, column=1, padx=0, pady=1, sticky="w")
+        self.dest_entry.grid(row=1, column=1, padx=(0, 5), pady=1, sticky="ew")
 
         dest_btn = ctk.CTkButton(options_panel, text="Elegir...", width=70, command=self.browse_dest)
         dest_btn.grid(row=1, column=2, padx=(10, 0), pady=1)
 
         # Botón de Descarga
-        self.download_btn = ctk.CTkButton(self.video_details_frame, text="DESCARGAR VIDEO", font=ctk.CTkFont(size=11, weight="bold"), fg_color="#10B981", hover_color="#059669", height=35, command=self.start_download)
-        self.download_btn.grid(row=3, column=1, padx=(0, 5), pady=(5, 15), sticky="w")
+        self.download_btn = ctk.CTkButton(self.video_details_frame, text="DESCARGAR VIDEO", font=ctk.CTkFont(size=11, weight="bold"), fg_color="#10B981", hover_color="#059669", height=30, command=self.start_download)
+        self.download_btn.grid(row=3, column=0, columnspan=2, padx=5, pady=(10, 5), sticky="e")
 
         # --- Fila 4: Progreso, Estado y Consola ---
         self.bottom_frame = ctk.CTkFrame(self, fg_color="transparent")
