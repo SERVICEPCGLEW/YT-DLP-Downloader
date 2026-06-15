@@ -38,7 +38,7 @@ class YtDlpGUI(ctk.CTk):
 
         self.title("yt-dlp GUI")
         self.geometry("600x480")
-        self.minsize(450, 520)
+        self.minsize(380, 520)
         self.overrideredirect(True)
         self.is_pinned = False
         threading.Thread(target=self._run_tray_icon, daemon=True).start()
@@ -227,7 +227,7 @@ class YtDlpGUI(ctk.CTk):
         self.bottom_frame = ctk.CTkFrame(self, fg_color="transparent")
         self.bottom_frame.grid(row=4, column=0, padx=2, pady=(5, 15), sticky="nsew")
         self.bottom_frame.grid_columnconfigure(0, weight=1)
-        self.bottom_frame.grid_rowconfigure(3, weight=1)  # Fila del Log de consola
+        self.bottom_frame.grid_rowconfigure(4, weight=1)  # Fila del Log de consola
 
         # Estado del descarga
         self.status_lbl = ctk.CTkLabel(self.bottom_frame, text="Estado: Listo", font=ctk.CTkFont(size=11, weight="bold"))
@@ -250,7 +250,7 @@ class YtDlpGUI(ctk.CTk):
         self.console_checkbox = ctk.CTkCheckBox(console_header_frame, text="Mostrar consola de depuración", variable=self.show_console_var, command=self.toggle_console, font=ctk.CTkFont(size=11))
         self.console_checkbox.pack(side="left")
 
-        self.console_text = ctk.CTkTextbox(self.bottom_frame, font=ctk.CTkFont(family="Consolas", size=11), fg_color="#0F172A", text_color="#F8FAFC", state="disabled")
+        self.console_text = ctk.CTkTextbox(self.bottom_frame, height=50, font=ctk.CTkFont(family="Consolas", size=11), fg_color="#0F172A", text_color="#F8FAFC", state="disabled")
         # No se ubica inicialmente (está colapsada)
 
         # Botones extra abajo
@@ -297,7 +297,7 @@ class YtDlpGUI(ctk.CTk):
     def do_resize(self, event):
         del_x = event.x_root - self.start_x
         del_y = event.y_root - self.start_y
-        new_w = max(450, self.start_w + del_x)
+        new_w = max(380, self.start_w + del_x)
         new_h = max(520, self.start_h + del_y)
         self.geometry(f"{new_w}x{new_h}")
 
@@ -367,12 +367,8 @@ class YtDlpGUI(ctk.CTk):
     def toggle_console(self):
         if self.show_console_var.get():
             self.console_text.grid(row=4, column=0, padx=5, pady=(0, 10), sticky="nsew")
-            new_h = self.winfo_height() + 90
-            self.geometry(f"{self.winfo_width()}x{new_h}")
         else:
             self.console_text.grid_forget()
-            new_h = max(520, self.winfo_height() - 90)
-            self.geometry(f"{self.winfo_width()}x{new_h}")
 
     def show_about(self):
         import webbrowser
