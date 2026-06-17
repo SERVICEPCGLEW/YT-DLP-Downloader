@@ -1,15 +1,2 @@
 
 --- APLICACIÓN INICIADA ---
-start_fetch_metadata: URL=https://www.facebook.com/reel/1003378022055697 | Path=G:\Mi unidad\🌐 Proyectos Web y de Software\📥 YT-DLP-Downloader\yt-dlp.exe
-Iniciando hilo _fetch_metadata_thread...
-Hilo _fetch_metadata_thread en ejecución...
-Ejecutando comando: ['G:\\Mi unidad\\🌐 Proyectos Web y de Software\\📥 YT-DLP-Downloader\\yt-dlp.exe', '--no-cache-dir', '-j', '--no-playlist', 'https://www.facebook.com/reel/1003378022055697']
-Subproceso Popen creado.
-Proceso finalizado. Código de retorno: 0
-Salida recibida (longitud=18345). Cargando JSON...
-JSON cargado con éxito.
-Metadatos: título='8.8K views · 44 reactions | Benetello Soluciones TI on Reels', duración=105, canal='Benetello Soluciones TI', miniatura='https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/723625194_4338876069762140_4475761650647055926_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=50ce42&_nc_ohc=qmMmTbgROiUQ7kNvwHbUen0&_nc_oc=AdqqZ9ZpjsDVbLGvo2HQMYnIFABqL4IE-gQGr5keEChAhBOXNF9zE0Zrin4JXUElUFdCza8gexA5z51cEVC33LKo&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=3pgn4PObKOyQDwlgm9bHzA&_nc_ss=7d289&oh=00_Af-6GZFHHwhx10h0rjva1MaudhdMhvBpsR7zT3W20uaSdQ&oe=6A354B75'
-Descargando miniatura desde: https://scontent.feze8-2.fna.fbcdn.net/v/t15.5256-10/723625194_4338876069762140_4475761650647055926_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=50ce42&_nc_ohc=qmMmTbgROiUQ7kNvwHbUen0&_nc_oc=AdqqZ9ZpjsDVbLGvo2HQMYnIFABqL4IE-gQGr5keEChAhBOXNF9zE0Zrin4JXUElUFdCza8gexA5z51cEVC33LKo&_nc_zt=23&_nc_ht=scontent.feze8-2.fna&_nc_gid=3pgn4PObKOyQDwlgm9bHzA&_nc_ss=7d289&oh=00_Af-6GZFHHwhx10h0rjva1MaudhdMhvBpsR7zT3W20uaSdQ&oe=6A354B75
-Respuesta de miniatura status=200
-Miniatura redimensionada correctamente.
-Llamando a on_fetch_success...
